@@ -10,8 +10,9 @@ const Users = db.define(
       type: DataTypes.INTEGER,
       autoIncrement: true,
     },
-    username: {
+    fullName: {
       type: DataTypes.STRING(20),
+      field: "full_name",
       allowNull: false,
     },
     email: {
@@ -25,11 +26,6 @@ const Users = db.define(
     password: {
       type: DataTypes.STRING,
       allowNull: false,
-    },
-    isConfirmed: {
-      type: DataTypes.BOOLEAN,
-      field: "is_confirmed",
-      defaultValue: false,
     },
   },
   {
