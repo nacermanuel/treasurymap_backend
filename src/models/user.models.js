@@ -9,14 +9,15 @@ const Users = db.define(
       primaryKey: true,
       type: DataTypes.INTEGER,
       autoIncrement: true,
+      allowNull: false,      
     },
     fullName: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING,
       field: "full_name",
       allowNull: false,
     },
     email: {
-      type: DataTypes.STRING(30),
+      type: DataTypes.STRING,
       unique: true,
       allowNull: false,
       validate: {

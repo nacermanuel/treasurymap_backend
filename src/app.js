@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const db = require("./utils/database");
 const initModels = require("./models/init.models");
 const routerApi = require("./routes");
+require("./models/associations.models.js");
 
 app.use(express.json());
 app.use(cors());
