@@ -1,4 +1,4 @@
-const Companies = require("../models/companies.models");
+
 const CompaniesServices = require("../services/companies.service");
 
 const getCompanyUserOwn = async (req, res) => {
@@ -36,10 +36,8 @@ const getCompanyData = async (req, res) => {
     const { companyId } = req.params
     const result = await CompaniesServices.getCompanyDataService(companyId);
     if (result){
-      console.log('controllado if true');
       res.status(200).json(result);  
     }else if(!result){
-      console.log('controllado if false');
       res.status(400).json({ message: "Company not found" });
     }
 
@@ -49,8 +47,52 @@ const getCompanyData = async (req, res) => {
   }
 }
 
+const upadateCompanyData = async (req, res) => {
+  try{
+    const { companyId } = req.params
+    const { 
+      description, creationDate, turnover, employees, location, 
+      companyWebsite, productName, productVersion 
+    } = req.body;
+
+    // Validate mandatory fields
+    if (!description || !creationDate || !turnover || !employees || !location || !companyWebsite) {
+      return res.status(400).send('Missing mandatory fields');
+    }
+
+    // Prepare the data object with only provided fields
+    const updatedData = {
+      description,
+      creationDate,
+      turnover,
+      employees,
+      location,
+      companyWebsite,
+      ...(productName && { productName }),  // Include only if provided
+      ...(productVersion && { productVersion }),  // Include only if provided
+    };
+
+    const result = await CompaniesServices.updateCompanyDataService(companyId, updatedData);
+
+    if (result){
+      //console.log('controllador if entro a true');
+      res.status(200).json(result);  
+    }else if(!result){
+      //console.log('controllado if entro a false');
+      res.status(400).json({ message: "Company not found" });
+    }
+
+  } catch (error) {
+    console.log(error);
+    res.status(400).json(error);
+  }
+}
+
+
+
 module.exports = {
   getCompanyUserOwn,
   createUserCompany,
-  getCompanyData
+  getCompanyData,
+  upadateCompanyData
 }
