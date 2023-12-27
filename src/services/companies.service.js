@@ -40,8 +40,6 @@ class CompaniesServices {
   }
 
 
-
-
   static async getCompanyDataService(companyId){
     try{
       const company = await Companies.findOne(
@@ -50,10 +48,8 @@ class CompaniesServices {
         }
       );
       if(company){
-        console.log('dentro del if true');
         return company
       } else{
-        console.log('dentro del if false');
         return false
       }      
 
@@ -61,6 +57,30 @@ class CompaniesServices {
       throw error;
     }
   }
+
+
+  static async updateCompanyDataService(companyId, updatedData){
+    try{
+      const company = await Companies.update(updatedData, 
+        {
+          where: {
+            id: companyId
+          }
+        });
+
+
+      if(company[0]){
+        //console.log('SERVICIO dentro del if true');
+        return company
+      } else{
+        //console.log('SERVICIO dentro del if false');
+        return false
+      }      
+
+    }catch(error){
+      throw error;
+    }
+  }  
 
 }
 
