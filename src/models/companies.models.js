@@ -14,6 +14,7 @@ const Companies = db.define(
       type: DataTypes.STRING,
       field: "name",
       allowNull: false,
+      unique: true,
     },
     description: {
       type: DataTypes.STRING,
