@@ -19,6 +19,26 @@ class CompaniesServices {
     }
   }
 
+
+  static async createCompany(data){
+    const {name, userId} = data
+    try{
+      const company = await Companies.create(
+        {
+          name: name,
+          userId: userId,
+        }
+      )
+      if(company){
+        return company
+      } else{
+        return false
+      }
+    } catch(error){
+      throw error;
+    }
+  }
+
 }
 
 module.exports = CompaniesServices;
