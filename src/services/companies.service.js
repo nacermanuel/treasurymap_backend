@@ -2,7 +2,7 @@ const Companies = require("../models/companies.models");
 
 class CompaniesServices {
 
-  static async getOwned(userId) {
+  static async getOwnedService(userId) {
     try {
       const companiesOwned = await Companies.findAll({
         where: {
@@ -20,7 +20,7 @@ class CompaniesServices {
   }
 
 
-  static async createCompany(data){
+  static async createCompanyService(data){
     const {name, userId} = data
     try{
       const company = await Companies.create(
@@ -35,6 +35,29 @@ class CompaniesServices {
         return false
       }
     } catch(error){
+      throw error;
+    }
+  }
+
+
+
+
+  static async getCompanyDataService(companyId){
+    try{
+      const company = await Companies.findOne(
+        { 
+          where: { id: companyId } 
+        }
+      );
+      if(company){
+        console.log('dentro del if true');
+        return company
+      } else{
+        console.log('dentro del if false');
+        return false
+      }      
+
+    }catch(error){
       throw error;
     }
   }
