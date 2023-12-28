@@ -40,8 +40,28 @@ const GetVideoByCompanyId = async (req, res) => {
 
 }
 
+const DeleteVideo = async (req, res) => {
+  
+  try{
+    const { videoid } = req.params
+    
+    const result = await VideosServices.DeleteVideoService(videoid);
+
+    if (result){
+      res.status(200).json(result);  
+    }else if(!result){
+      res.status(400).json({ message: "Video does not exist. Controller response" });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(400).json(error);
+  }
+
+}
+
 
 module.exports = {
   CreateVideo,
-  GetVideoByCompanyId
+  GetVideoByCompanyId,
+  DeleteVideo
 }
