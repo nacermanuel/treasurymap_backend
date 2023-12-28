@@ -1,11 +1,11 @@
-const VideosServices = require("../services/videos.services")
+const ArticlesServices = require("../services/articles.services")
 
-const CreateVideo = async (req, res) => {
+const CreateArticle = async (req, res) => {
   
   try{
-    const videoData = req.body
-  
-    const result = await VideosServices.createVideoService(videoData);
+    const articleData = req.body
+    
+    const result = await ArticlesServices.createArticleService(articleData);
 
     if (result){
       res.status(201).json(result);  
@@ -20,12 +20,12 @@ const CreateVideo = async (req, res) => {
 }
 
 
-const GetVideoByCompanyId = async (req, res) => {
+const GetArticleByCompanyId = async (req, res) => {
   
   try{
     const { companyId } = req.params
     
-    const result = await VideosServices.GetVideoByCompanyIdService(companyId);
+    const result = await ArticlesServices.GetArticleByCompanyIdService(companyId);
 
     if (result){
       res.status(200).json(result);  
@@ -39,12 +39,12 @@ const GetVideoByCompanyId = async (req, res) => {
 
 }
 
-const DeleteVideo = async (req, res) => {
+const DeleteArticle = async (req, res) => {
   
   try{
-    const { videoid } = req.params
+    const { articleid } = req.params
     
-    const result = await VideosServices.DeleteVideoService(videoid);
+    const result = await ArticlesServices.DeleteArticleService(articleid);
 
     if (result){
       res.status(200).json(result);  
@@ -60,7 +60,7 @@ const DeleteVideo = async (req, res) => {
 
 
 module.exports = {
-  CreateVideo,
-  GetVideoByCompanyId,
-  DeleteVideo
+  CreateArticle,
+  GetArticleByCompanyId,
+  DeleteArticle
 }
