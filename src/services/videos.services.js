@@ -39,7 +39,24 @@ class VideosServices {
     }    
   }
 
-    
+  static async DeleteVideoService(videoid) {
+    try {
+      const video = await Videos.destroy({
+        where: {
+          id: videoid
+        },
+      });
+      if (video) {
+        return video
+      } else{
+        return false
+      }
+    } catch (error) {
+      throw error;
+    }    
+  }  
+  
+
 } 
 
 module.exports = VideosServices;
