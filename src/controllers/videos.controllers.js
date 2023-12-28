@@ -5,11 +5,7 @@ const CreateVideo = async (req, res) => {
   try{
     const videoData = req.body
     const {title, url, companyId} = videoData
-    
-    // if (!title || !url || !companyId ) {
-    //   return res.status(400).send('Missing mandatory fields');
-    // }
-
+  
     const result = await VideosServices.createVideoService(videoData);
 
     if (result){
@@ -22,10 +18,30 @@ const CreateVideo = async (req, res) => {
     res.status(400).json(error);
   }
 
+}
 
+
+const GetVideoByCompanyId = async (req, res) => {
+  
+  try{
+    const { companyId } = req.params
+    
+    const result = await VideosServices.GetVideoByCompanyIdService(companyId);
+
+    if (result){
+      res.status(200).json(result);  
+    }else if(!result){
+      res.status(400).json({ message: "Error Controller response" });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(400).json(error);
+  }
 
 }
 
+
 module.exports = {
   CreateVideo,
+  GetVideoByCompanyId
 }
