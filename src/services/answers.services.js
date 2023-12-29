@@ -46,15 +46,15 @@ class AnswersServices {
   }    
 
 
-  static async GetArticleByCompanyIdService(companyId) {
+  static async GetAnswerByCompanyIdService(companyId) {
     try {
-      const ArticlesList = await Articles.findAll({
+      const answerList = await CompaniesAnswers.findAll({
         where: {
           companyId: companyId
         },
       });
-      if (ArticlesList) {
-        return ArticlesList
+      if (answerList) {
+        return answerList
       } else{
         return false
       }
