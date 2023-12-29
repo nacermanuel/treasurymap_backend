@@ -22,6 +22,30 @@ class AnswersServices {
     }
   }
   
+
+  static async updateAnswerService(answerId, answers){
+    try{
+      const answer = await CompaniesAnswers.update(answers, 
+        {
+          where: {
+            id: answerId
+          }
+        });
+
+      if(answer[0]){
+        //console.log('SERVICIO dentro del if true');
+        return answer
+      } else{
+        //console.log('SERVICIO dentro del if false');
+        return false
+      }      
+
+    }catch(error){
+      throw error;
+    }
+  }    
+
+
   static async GetArticleByCompanyIdService(companyId) {
     try {
       const ArticlesList = await Articles.findAll({
@@ -38,23 +62,6 @@ class AnswersServices {
       throw error;
     }    
   }
-
-  static async DeleteArticleService(articleid) {
-    try {
-      const article = await Articles.destroy({
-        where: {
-          id: articleid
-        },
-      });
-      if (article) {
-        return article
-      } else{
-        return false
-      }
-    } catch (error) {
-      throw error;
-    }    
-  }  
   
 
 } 

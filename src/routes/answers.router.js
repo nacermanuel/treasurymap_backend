@@ -8,8 +8,8 @@ const {
 
 
 router.post("/create", CreateAnswer );
-router.get("/:companyId", GetAnswerByCompanyId)
 router.put("/:answerId", updateAnswer)
+router.get("/:companyId", GetAnswerByCompanyId)
 
 /*INSERT*/
 
