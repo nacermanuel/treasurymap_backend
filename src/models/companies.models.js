@@ -46,6 +46,18 @@ const Companies = db.define(
       type: DataTypes.STRING,
       field: "company_website",
     },    
+    companyOffices: {
+      type: DataTypes.ARRAY(DataTypes.INTEGER),
+      field: "company_offices",
+    },     
+    companyCategories: {
+      type: DataTypes.ARRAY(DataTypes.INTEGER),
+      field: "company_categories",
+    },
+    companySubcategories: {
+      type: DataTypes.ARRAY(DataTypes.INTEGER),
+      field: "company_subcategories",
+    },   
     productName: {
       type: DataTypes.STRING,
       field: "product_name",
@@ -53,7 +65,7 @@ const Companies = db.define(
     productVersion: {
       type: DataTypes.STRING,
       field: "product_version",
-    }, 
+    },     
   },
 );
 

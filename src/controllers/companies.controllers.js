@@ -52,11 +52,11 @@ const upadateCompanyData = async (req, res) => {
     const { companyId } = req.params
     const { 
       description, creationDate, turnover, employees, location, 
-      companyWebsite, productName, productVersion 
+      companyWebsite, companyOffices, companyCategories, companySubcategories, productName, productVersion
     } = req.body;
 
     // Validate mandatory fields
-    if (!description || !creationDate || !turnover || !employees || !location || !companyWebsite) {
+    if (!description || !creationDate || !turnover || !employees || !location || !companyWebsite || !companyOffices || !companyCategories || !companySubcategories) {
       return res.status(400).send('Missing mandatory fields');
     }
 
@@ -68,6 +68,9 @@ const upadateCompanyData = async (req, res) => {
       employees,
       location,
       companyWebsite,
+      companyOffices, 
+      companyCategories, 
+      companySubcategories,
       ...(productName && { productName }),  // Include only if provided
       ...(productVersion && { productVersion }),  // Include only if provided
     };
@@ -76,7 +79,7 @@ const upadateCompanyData = async (req, res) => {
 
     if (result){
       //console.log('controllador if entro a true');
-      res.status(200).json(result);  
+      res.status(200).json({ message: "Company updated" });  
     }else if(!result){
       //console.log('controllado if entro a false');
       res.status(400).json({ message: "Company not found" });
