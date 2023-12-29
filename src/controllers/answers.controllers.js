@@ -45,7 +45,7 @@ const GetAnswerByCompanyId = async (req, res) => {
   try{
     const { companyId } = req.params
     
-    const result = await AnswersServices.GetArticleByCompanyIdService(companyId);
+    const result = await AnswersServices.GetAnswerByCompanyIdService(companyId);
 
     if (result){
       res.status(200).json(result);  
