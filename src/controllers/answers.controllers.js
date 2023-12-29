@@ -19,6 +19,26 @@ const CreateAnswer = async (req, res) => {
 
 }
 
+const updateAnswer = async (req, res) => {
+  
+  try{
+    const { answerId } = req.params
+    const  answers  = req.body 
+    
+    const result = await AnswersServices.updateAnswerService(answerId, answers);
+
+    if (result){
+      res.status(200).json(result);  
+    }else if(!result){
+      res.status(400).json({ message: "Not Succesfull. Controller response" });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(400).json(error);
+  }
+
+}
+
 
 const GetAnswerByCompanyId = async (req, res) => {
   
@@ -39,24 +59,7 @@ const GetAnswerByCompanyId = async (req, res) => {
 
 }
 
-const updateAnswer = async (req, res) => {
-  
-  try{
-    const { articleid } = req.params
-    
-    const result = await AnswersServices.DeleteArticleService(articleid);
 
-    if (result){
-      res.status(200).json(result);  
-    }else if(!result){
-      res.status(400).json({ message: "Video does not exist. Controller response" });
-    }
-  } catch (error) {
-    console.log(error);
-    res.status(400).json(error);
-  }
-
-}
 
 
 module.exports = {
