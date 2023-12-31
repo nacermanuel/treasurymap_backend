@@ -10,7 +10,7 @@ const {
 
 router.get("/:companyId", getCompanyData);
 router.get("/getByOwner/:userId", getCompanyUserOwn);
-router.post("/create", createUserCompany);
+router.post("/", createUserCompany);
 router.put("/:companyId", upadateCompanyData);
 router.delete("/:companyId", deleteCompany);
 

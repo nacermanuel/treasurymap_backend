@@ -19,12 +19,8 @@ class CompaniesServices {
   }
 
   static async createCompanyService(data) {
-    const { name, userId } = data;
     try {
-      const company = await Companies.create({
-        name: name,
-        userId: userId,
-      });
+      const company = await Companies.create(data);
       if (company) {
         return company;
       } else {
