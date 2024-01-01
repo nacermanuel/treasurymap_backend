@@ -8,11 +8,11 @@ const routerApi = require("./routes");
 //require("./models/associations.models.js");
 
 const corsOptions = {
-  origin: "treasurymap.vercel.app", // O reemplázalo con el dominio específico de tu frontend
+  origin: "https://treasurymap.vercel.app", // O reemplázalo con el dominio específico de tu frontend
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // Permite incluir cookies en las solicitudes (si es necesario)
   optionsSuccessStatus: 204, // Algunos navegadores devuelven un código 204 en lugar de 200
-  allowedHeaders: "Content-Type, Authorization", // Ajusta según tus necesidades
+  allowedHeaders: "Content-Type, Authorization, Your-Other-Headers",
 };
 
 app.use(express.json());
