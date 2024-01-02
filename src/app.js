@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const db = require("./utils/database");
 const initModels = require("./models/init.models");
 const routerApi = require("./routes");
+const seeder = require("./seeders/seed");
 
 app.use(express.json());
 app.use(cors());
@@ -16,7 +17,10 @@ db.authenticate()
   .catch((error) => console.log(error));
 
 db.sync({ force: false })
-  .then(() => console.log("db synched"))
+  .then(() => {
+    console.log("db synched");
+    //seeder();
+  })
   .catch((error) => console.log(error));
 
 routerApi(app);
