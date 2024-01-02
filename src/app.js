@@ -19,7 +19,7 @@ db.authenticate()
 db.sync({ force: false })
   .then(() => {
     console.log("db synched");
-    // seeder();
+    //seeder();
   })
   .catch((error) => console.log(error));
 
