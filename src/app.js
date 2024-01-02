@@ -5,18 +5,9 @@ const morgan = require("morgan");
 const db = require("./utils/database");
 const initModels = require("./models/init.models");
 const routerApi = require("./routes");
-//require("./models/associations.models.js");
-
-const corsOptions = {
-  origin: "https://treasurymap.vercel.app", // O reemplázalo con el dominio específico de tu frontend
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  credentials: true, // Permite incluir cookies en las solicitudes (si es necesario)
-  optionsSuccessStatus: 204, // Algunos navegadores devuelven un código 204 en lugar de 200
-  allowedHeaders: "Content-Type, Authorization, Your-Other-Headers",
-};
 
 app.use(express.json());
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(morgan("tiny"));
 
 initModels();
