@@ -5,7 +5,6 @@ const morgan = require("morgan");
 const db = require("./utils/database");
 const initModels = require("./models/init.models");
 const routerApi = require("./routes");
-
 app.use(express.json());
 app.use(cors());
 app.use(morgan("tiny"));
