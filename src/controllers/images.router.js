@@ -34,7 +34,7 @@ const uploadImage = async (req, res) => {
             error: "Error interno del servidor",
           });
         } else {
-          res.status(200).json({ success: true, imageUrl: result.secure_url });
+          res.status(200).json(result.secure_url);
         }
       }
     );
