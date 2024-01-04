@@ -6,6 +6,14 @@ const db = require("./utils/database");
 const initModels = require("./models/init.models");
 const routerApi = require("./routes");
 const seeder = require("./seeders/seed");
+var cloudinary = require("cloudinary").v2;
+
+cloudinary.config({
+  cloud_name: process.env.CLOUD_NAME,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECRET,
+  secure: true,
+});
 
 app.use(express.json());
 app.use(cors());
