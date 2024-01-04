@@ -2,6 +2,7 @@ const Users = require("../models/user.models");
 const Categories = require("../models/categories.models");
 const SubCategories = require("../models/subcategories.models");
 const Companies = require("../models/companies.models");
+const Questions = require("../models/questions.models");
 
 const users = [
   {
@@ -355,31 +356,54 @@ const companies = [
   },
 ];
 
+const questions = [
+  {
+    body: "Do you have any specific cooperation agreement with other IT vendors for pitching?",
+  },
+  {
+    body: "Bank connectivity (through which types of channel - please specify) :",
+  },
+  {
+    body: "Do you have any other specific functionalities:",
+  },
+  {
+    body: "Do you have specific integration with Fintechs? (If YES please specify which ones):",
+  },
+  {
+    body: "Do you propose solutions or functionalities based on AI? (if YES please specify):",
+  },
+];
+
 const seeder = async () => {
   for (const user of users) {
     try {
       const response = await Users.create(user);
-      //console.log('user created:', response);
     } catch (error) {
-      console.error("Error creating user:", error);
+      console.error("Error creating users:", error);
     }
   }
 
   for (const category of categories) {
     try {
       const response = await Categories.create(category);
-      //console.log('category created:', response);
     } catch (error) {
-      console.error("Error creating category:", error);
+      console.error("Error creating categories:", error);
     }
   }
 
   for (const subcategory of subCategories) {
     try {
       const response = await SubCategories.create(subcategory);
-      //console.log('subcategory created:', response);
     } catch (error) {
-      console.error("Error creating subcategory:", error);
+      console.error("Error creating subcategories:", error);
+    }
+  }
+
+  for (const question of questions) {
+    try {
+      const response = await Questions.create(question);
+    } catch (error) {
+      console.error("Error creating questions:", error);
     }
   }
 
@@ -387,43 +411,12 @@ const seeder = async () => {
     for (const company of companies) {
       try {
         const response = await Companies.create(company);
-        //console.log('Company created:', response);
       } catch (error) {
-        console.error("Error creating company:", error);
+        console.error("Error creating companies:", error);
       }
     }
   }, 1500);
   console.log("EXITO");
 };
-
-// const seeder = () => {
-//   users.forEach((user) => Users.create(user));
-
-//   categories.forEach((category) => Categories.create(category));
-
-//   subCategories.forEach((subcategory) => SubCategories.create(subcategory));
-
-//   setTimeout(
-
-//     async() => {
-//           for (const company of companies) {
-//               try {
-//                   const response = await Companies.create(company);
-//                   //console.log('Company created:', response);
-//               } catch (error) {
-//                   console.error('Error creating company:', error);
-//               }
-//           }
-//     }
-
-//     // () => companies.forEach( async (company) => {
-//     //   await Companies.create(company)
-//     // })
-
-//     ,
-//     500
-//   );
-//   console.log("EXITO");
-// };
 
 module.exports = seeder;
