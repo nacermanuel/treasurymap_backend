@@ -18,6 +18,19 @@ class CompaniesServices {
     }
   }
 
+  static async getAllCompaniesServices() {
+    try {
+      const companies = await Companies.findAll();
+      if (companies.length) {
+        return companies;
+      } else {
+        return false;
+      }
+    } catch (error) {
+      throw error;
+    }
+  }  
+
   static async createCompanyService(data) {
     try {
       const company = await Companies.create(data);
