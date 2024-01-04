@@ -11,7 +11,7 @@ const {
 
 router.get("/:companyId", getCompanyData);
 router.get("/getByOwner/:userId", getCompanyUserOwn);
-router.get("/all/all", getAllCompanies)
+router.get("/all/all", getAllCompanies )
 router.post("/create", createUserCompany);
 router.put("/:companyId", upadateCompanyData);
 router.delete("/:companyId", deleteCompany);
