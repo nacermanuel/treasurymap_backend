@@ -3,6 +3,7 @@ const Categories = require("../models/categories.models");
 const SubCategories = require("../models/subcategories.models");
 const Companies = require("../models/companies.models");
 const Questions = require("../models/questions.models");
+const Countries = require("../models/countries.models");
 
 const users = [
   {
@@ -374,6 +375,42 @@ const questions = [
   },
 ];
 
+const countries = [
+  {
+    name: "Europe",
+  },
+  {
+    name: "North America",
+  },
+  {
+    name: "South America",
+  },
+  {
+    name: "Eurasia",
+  },
+  {
+    name: "Asia",
+  },
+  {
+    name: "Oceania",
+  },
+  {
+    name: "Caribbean",
+  },
+  {
+    name: "Australia",
+  },
+  {
+    name: "Africa",
+  },
+  {
+    name: "Middle East",
+  },
+  {
+    name: "Central America",
+  },
+];
+
 const seeder = async () => {
   for (const user of users) {
     try {
@@ -402,6 +439,14 @@ const seeder = async () => {
   for (const question of questions) {
     try {
       const response = await Questions.create(question);
+    } catch (error) {
+      console.error("Error creating questions:", error);
+    }
+  }
+
+  for (const country of countries) {
+    try {
+      const response = await Countries.create(country);
     } catch (error) {
       console.error("Error creating questions:", error);
     }
