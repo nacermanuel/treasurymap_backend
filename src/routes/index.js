@@ -19,7 +19,7 @@ const routerApi = (app) => {
   app.use("/api/v1/categories", categoriesRoutes, error);
   app.use("/api/v1/subCategories", subCategoriesRoutes, error);
   app.use("/api/v1/images", imagesRoutes, error);
-  app.use("/api/v1/questions", questionsRoutes, error);
+  app.use("/api/v1/questions", questionsRoutes, error );
   app.use("/api/v1/mapdata", mapdataRoutes, error);
 };
 
