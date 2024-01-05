@@ -27,12 +27,12 @@ async function processCategories() {
                 if (company.companyCategories && company.companyCategories.includes(category.id + 1)) {
                     category.logos.push(
                         {
-                            image: company.logo,
+                            image: company.logo || '',
                             url: `https://treasurymapbackend-production.up.railway.app/api/v1/companies/${company.id}`,
                             keywords: [],
-                            subcategories: company.companySubcategories,
-                            headequarterLocation: company.location,
-                            activeIn: company.companyOffices,
+                            subcategories: company.companySubcategories || [],
+                            headequarterLocation: company.location || '',
+                            activeIn: company.companyOffices || [],
                         }
                     ); // Store company data
                 }
