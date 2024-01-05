@@ -1,8 +1,6 @@
 const categoriesTemplate = require("./categoriesTemplate.js");
  
 
-let companies = []; // Initialize an empty array
-
 // Function to fetch company data
 async function fetchCompanies() {
     try {
@@ -18,9 +16,13 @@ async function fetchCompanies() {
 // Function to process categories after fetching companies
 async function processCategories() {
     try {
+
+        let categories = JSON.parse(JSON.stringify(categoriesTemplate));
+        let companies = []; // Initialize an empty array        
+
         companies = await fetchCompanies(); // Await the fetch operation
 
-        categoriesTemplate.forEach(category => {
+        categories.forEach(category => {
             companies.forEach(company => {
                 if (company.companyCategories && company.companyCategories.includes(category.id + 1)) {
                     category.logos.push(
@@ -38,7 +40,7 @@ async function processCategories() {
         });
 
         //console.log(categories); // Now categories is processed and can be logged
-        return categoriesTemplate
+        return categories
     } catch (error) {
         console.error('Error processing categories:', error);
     }
