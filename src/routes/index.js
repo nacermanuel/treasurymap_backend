@@ -7,6 +7,7 @@ const categoriesRoutes = require("./categories.router");
 const subCategoriesRoutes = require("./subCategories.router");
 const imagesRoutes = require("./images.router");
 const questionsRoutes = require("./questions.router");
+const countriesRoutes = require("./countries.router");
 const error = require("../middlewares/error.middleware");
 
 const routerApi = (app) => {
@@ -19,6 +20,7 @@ const routerApi = (app) => {
   app.use("/api/v1/subCategories", subCategoriesRoutes, error);
   app.use("/api/v1/images", imagesRoutes, error);
   app.use("/api/v1/questions", questionsRoutes, error);
+  app.use("/api/v1/countries", countriesRoutes, error);
 };
 
 module.exports = routerApi;
