@@ -29,7 +29,7 @@ class CompaniesServices {
     } catch (error) {
       throw error;
     }
-  }  
+  }
 
   static async createCompanyService(data) {
     try {

@@ -43,12 +43,9 @@ class AnswersServices {
         where: {
           companyId: companyId,
         },
+        attributes: ["answer"],
       });
-      if (answerList) {
-        return answerList;
-      } else {
-        return false;
-      }
+      return answerList.map((answerObj) => answerObj.answer);
     } catch (error) {
       throw error;
     }
