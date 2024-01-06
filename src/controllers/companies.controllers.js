@@ -32,7 +32,7 @@ const createUserCompany = async (req, res) => {
   }
 };
 
-const getAllCompanies = async (req,res) => {
+const getAllCompanies = async (req, res) => {
   try {
     const result = await CompaniesServices.getAllCompaniesServices();
     if (result) {
@@ -44,8 +44,7 @@ const getAllCompanies = async (req,res) => {
     console.log(error);
     res.status(400).json(error);
   }
-}
-
+};
 
 const getCompanyData = async (req, res) => {
   try {
@@ -62,68 +61,16 @@ const getCompanyData = async (req, res) => {
   }
 };
 
-const upadateCompanyData = async (req, res) => {
+const upadateCompanyData = async (req, res, next) => {
   try {
     const { companyId } = req.params;
-    const {
-      description,
-      creationDate,
-      turnover,
-      employees,
-      location,
-      companyWebsite,
-      companyOffices,
-      companyCategories,
-      companySubcategories,
-      productName,
-      productVersion,
-    } = req.body;
-
-    // Validate mandatory fields
-    if (
-      !description ||
-      !creationDate ||
-      !turnover ||
-      !employees ||
-      !location ||
-      !companyWebsite ||
-      !companyOffices ||
-      !companyCategories ||
-      !companySubcategories
-    ) {
-      return res.status(400).send("Missing mandatory fields");
-    }
-
-    // Prepare the data object with only provided fields
-    const updatedData = {
-      description,
-      creationDate,
-      turnover,
-      employees,
-      location,
-      companyWebsite,
-      companyOffices,
-      companyCategories,
-      companySubcategories,
-      ...(productName && { productName }), // Include only if provided
-      ...(productVersion && { productVersion }), // Include only if provided
-    };
-
     const result = await CompaniesServices.updateCompanyDataService(
       companyId,
-      updatedData
+      req.body
     );
-
-    if (result) {
-      //console.log('controllador if entro a true');
-      res.status(200).json({ message: "Company updated" });
-    } else if (!result) {
-      //console.log('controllado if entro a false');
-      res.status(400).json({ message: "Company not found" });
-    }
+    res.status(200).json(result);
   } catch (error) {
-    console.log(error);
-    res.status(400).json(error);
+    next(error);
   }
 };
 
