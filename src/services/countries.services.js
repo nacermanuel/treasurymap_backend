@@ -9,6 +9,14 @@ class CategoriesServices {
       throw error;
     }
   }
+  static async getCountryById(id) {
+    try {
+      const result = await Countries.findByPk(id);
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = CategoriesServices;
