@@ -62,48 +62,7 @@ const categoriesTemplate =
             categoryName: 'Category 9',
             categoryKey: 'category-9',
             categoryImage: './assets/interactive-map/categories/category-9.png',
-            logos: [
-              { 
-                image: './assets/interactive-map/categories/category-9/logo-1.jpg',
-                url: 'example.com',
-                keywords: ['international', 'keyword 1', 'keyword 3'],
-                subcategories: ['subcategory 1'],
-                headequarterLocation: ['location 1'],
-                activeIn: ['active 1'],
-              },
-              { 
-                image: './assets/interactive-map/categories/category-9/logo-2.png',
-                url: 'example.com',
-                keywords: ['international', 'keyword 3'],
-                subcategories: ['subcategory 2'],
-                headequarterLocation: ['location 2'],
-                activeIn: ['active 2'],
-              },
-              { 
-                image: './assets/interactive-map/categories/category-9/logo-3.jpg',
-                url: 'example.com',
-                keywords: ['keyword 1', 'keyword 3'],
-                subcategories: ['subcategory 3'],
-                headequarterLocation: ['location 3'],
-                activeIn: ['active 3'],
-              },
-              { 
-                image: './assets/interactive-map/categories/category-9/logo-4.png',
-                url: 'example.com',
-                keywords: ['international', 'keyword 3', 'keyword 2'],
-                subcategories: ['subcategory 1'],
-                headequarterLocation: ['location 1'],
-                activeIn: ['active 1'],
-              },
-              { 
-                image: './assets/interactive-map/categories/category-9/logo-5.png',
-                url: 'example.com',
-                keywords: ['international', 'keyword 1', 'keyword 5'],
-                subcategories: ['subcategory 2'],
-                headequarterLocation: ['location 2'],
-                activeIn: ['active 2'],
-              },
-            ]
+            logos: []
           },
           {
             id: 9,
