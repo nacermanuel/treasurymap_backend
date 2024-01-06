@@ -66,14 +66,7 @@ class CompaniesServices {
           id: companyId,
         },
       });
-
-      if (company[0]) {
-        //console.log('SERVICIO dentro del if true');
-        return company;
-      } else {
-        //console.log('SERVICIO dentro del if false');
-        return false;
-      }
+      return company;
     } catch (error) {
       throw error;
     }
