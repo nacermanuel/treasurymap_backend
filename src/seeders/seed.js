@@ -9,6 +9,11 @@ const Articles = require("../models/articles.models");
 
 const users = [
   {
+    fullName: "master admin",
+    email: "admin@master.com",
+    password: "master1234",
+  },
+  {
     fullName: "Sebastian Gomez",
     email: "sebas@gmail.com",
     password: "1234",
@@ -16,11 +21,6 @@ const users = [
   {
     fullName: "Manuel Nacer",
     email: "manuel@gmail.com",
-    password: "1234",
-  },
-  {
-    fullName: "Juan Perez",
-    email: "juan@gmail.com",
     password: "1234",
   },
 ];
@@ -185,193 +185,2151 @@ const subCategories = [
   },
 ];
 
-const companies = [
+const companies = 
+[
   {
-    name: "Necto",
-    description:
-      "We created Necto so corporates, banks, treasury technology providers, ERPs and PSPs can evolve beyond antiquated financial messaging. Our platform harnesses the power of next generation, API driven bank connectivity. As a team of proven Fintech innovators, we made it our mission to provide the rails for our partners and clients to transform how global treasury operates.",
-    creationDate: "2023",
-    productName: "BankLync",
-    location: "US",
-    companyCategories: [13],
-    companySubcategories: [1, 18],
-    logo: "",
+    name: "category-1-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
     userId: 1,
-    companyOffices: [1, 3, 5],
-  },
-  {
-    name: "Nomentia",
-    description:
-      "Nomentia is a European leader in Cash and Treasury Management with roots going back all the way to 1984. Nomentia exists to empower treasury teams with the trusted support, knowledge, and clarity needed to positively impact their organizations everyday. We do so for over 1400 clients all around the world and we have offices in 8 locations.",
-    creationDate: "2023",
-    productName: "Nomentia",
-    location: "Espoo, Finland",
-    companyCategories: [13],
-    companySubcategories: [
-      1, 2, 3, 5, 7, 11, 13, 15, 17, 18, 19, 21, 22, 23, 24, 25, 27, 28,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
     ],
-    logo: "",
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650668/category-1-logo-1_iyigt8.png"
+  },
+  {
+    name: "category-1-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
     userId: 1,
-    companyOffices: [1, 3, 5],
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650669/category-1-logo-2_cy6uby.png"
   },
   {
-    name: "SGX FX",
-    description:
-      "SGX FX offers a gateway to the global FX ecosystem, anchored by the world’s most liquid Asian FX futures exchange together with cutting-edge FX technology and workflow solutions from BidFX and MaxxTrader. SGX CurrencyNode, an FX electronic communication network, connects global participants anonymously to unique and deep OTC FX liquidity pools. For more information, visit www.sgx.com/fx.",
-    creationDate: "2017",
-    productName: "SGX FX",
-    location: "Singapore",
-    companyCategories: [1],
-    companySubcategories: [1, 2, 3, 4],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227252/SGX_FX_Logo_RGB_hqlwmq.png",
+    name: "category-1-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
     userId: 1,
-    companyOffices: [1, 3, 5],
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650669/category-1-logo-3_te6col.png"
   },
   {
-    name: "ConVista",
-    description:
-      "Convista is one of the leading consultancies for transformation. The consultancy supports its clients in the conceptualisation and implementation of new business processes and designs end-to-end solutions for SAP and IT projects. Together with its customers, Convista masters complex challenges by pooling its expertise and many years of industry and technology experience. For more than 20 years, Convista has been supporting customers from the insurance, industry, healthcare and energy sectors with SAP and IT projects - for an increasingly digitalised world. Convista is headquartered in Cologne and employs around 1,200 people worldwide.",
-    creationDate: "1999",
-    productName: "Software/Transformation",
-    location: "Cologne, Germany",
-    companyCategories: [13],
-    companySubcategories: [],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227404/convista-Logo-RGB_evchto.png",
+    name: "category-1-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
     userId: 1,
-    companyOffices: [1, 3, 5],
-  },
-  {
-    name: "ION Treasury",
-    description:
-      "ION was founded in 1998, and over the course of the past 20+ years it has become one of the world’s largest financial technology companies. ION is organized in five divisions: Treasury and Commodities (serving corporations, central banks, and financial institutions in treasury management and commodity management), Markets (serving the world’s leading capital markets companies), Analytics (providing data and analytics on capital raising, capital formation and M&A to capital markets, corporations and advisors through our Dealogic and Acuris brands) and Core Banking. ION Treasury is one of the largest providers of treasury and risk management solutions in the world. Its solutions are designed to meet the needs of organizations with varying complexities and at different stages of technology adoption. With over 1,100 customers in more than 35 countries around the world, ION Treasury is also a powerful community shaping the global treasury landscape. ION Treasury dedicates over 50% of its employee base to product innovation. Its financial strength, breadth of products, and commitment to continuous innovation enable it to deliver on treasury’s diverse and changing technology needs. ION Treasury’s portfolio of leading treasury products includes City Financials, IT2, ITS, Openlink, Reval, Treasura, and Wallstreet Suite as well as innovative tools and services that span across the entire solution set",
-    creationDate: "1998",
-    productName:
-      "Wallstreet Suite, Reval, IT2, Openlink, ITS, City Financials, Treasura",
-    location: "New York",
-    companyCategories: [6],
-    companySubcategories: [1, 2, 3],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227475/ion_kadbbu.png",
-    userId: 2,
-    companyOffices: [1, 3, 5],
-  },
-  {
-    name: "Finologee",
-    description:
-      "Finologee is one of Luxembourg’s leading digital finance platform operators. The company facilitates the financial industry’s quest for optimisation and innovation with its compliant platforms and APIs for bank compliance (PSD2 for Banks & CEDRS), mobile payments and telecom routing (Digicash & Mpulse), KYC/AML (KYC Manager & Digital Onboarding), and banks and accounts management (LYNKS). Finologee serves more than 100 banks and institutions and handles more than 25 million transactions, messages and end-customer interactions per year on their behalf. Placing user experience, technology and compliance at the core of the business, Finologee’s founders have been blazing a trail for FinTech ‘made in Luxembourg’ since 2006. With a staff of 38, the company is ISO/IEC 27001 certified and is operating as a regulated financial services professional under a ‘Support PFS’ licence granted by the Ministry of Finance.",
-    creationDate: "2017",
-    productName: "LYNKS, PSD2 for banks, KYC Manager, CEDRS",
-    location: "Leudelange, Luxembourg",
-    companyCategories: [6],
-    companySubcategories: [1, 2, 13],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227533/Finologee-new_tth8tq.png",
-    userId: 2,
-    companyOffices: [1, 3, 5],
-  },
-  {
-    name: "TransferMate",
-    description:
-      "TransferMate – a subsidiary of CluneTech — is the world’s leading provider of B2B payments infrastructure-as-a-service, enabling companies to send and receive cross-border payments faster, easier and at lower cost. TransferMate, under the leadership of founder Terry Clune and CEO Sinead Fitzmaurice, has built one of the largest portfolios of payments licenses worldwide, including 51 US states and territories, to support trading in more than 201 countries and 141 currencies. Leading banks, fintechs and software providers partner with TransferMate to offer an enhanced user experience for their business customers. The company has created bespoke integrations for banks like ING and AIB, who are also investors in the company. The TransferMate API solution allows partners to digitalize the payments flow within their software, enabling all businesses to achieve significant time and financial savings.",
-    creationDate: "2010",
-    productName: "TransferMate Global Payments",
-    location: "Kilkenny, Ireland",
-    companyCategories: [5],
-    companySubcategories: [3],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227581/Logo_Transfermate_gzfg1f.png",
-    userId: 2,
-    companyOffices: [1, 3, 5],
-  },
-  {
-    name: "Onbrane",
-    description:
-      "Onbrane is a France-headquartered technology provider, focusing on developing innovative solutions for the debt market, covering vanilla, sustainable, and asset-backed debt products. Today, Onbrane is a leader in the digitalization of the short-term primary debt market, improving debt negotiation and issuance processes for some of the largest public, private, and financial institutions.",
-    creationDate: "2018",
-    productName: "The Onbrane platform",
-    location: "Paris, France",
-    companyCategories: [1],
-    companySubcategories: [4, 11, 25],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227634/Onbrane1_tzwied.png",
-    userId: 2,
-    companyOffices: [1, 3, 5],
-  },
-  {
-    name: "Trustpair",
-    description:
-      "Trustpair is the leading payment fraud prevention platform for large companies worldwide. Since 2017, Trustpair helps finance teams secure their entire P2P process, thanks to vendor account validation automation. The solution offers intuitive risk management and integrates directly with existing tools for more efficiency. The company raised 20 million euros in October 2022 to focus on their US expansion and R&D, staying at the cutting edge of fraud prevention technology.",
-    creationDate: "2017",
-    productName: "Trustpair",
-    location: "Paris, France",
-    companyCategories: [5],
-    companySubcategories: [2, 25],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227682/Logo_Trustpair_qlgwpa.png",
-    userId: 2,
-    companyOffices: [1, 3, 5],
-  },
-  {
-    name: "NX PARTNERS",
-    description:
-      "NX Partners is your partner to design your future treasury strategy. Our experts help you craft your future banking landscape, identify your system requirements and potential process changes. Our aim is to ensure a successful outcome. We guide you through the change process. Our experience has taught us to spot pitfalls early on and identify and remedy change management challenges.",
-    creationDate: "2010",
-    productName: "",
-    location: "Belgium",
-    companyCategories: [4],
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
     companySubcategories: [],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227735/NX-Partners_logo_Top-menu_dnpqbm.png",
-    userId: 2,
-    companyOffices: [1, 3, 5],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650670/category-1-logo-4_zqhttp.png"
   },
   {
-    name: "TreasurySpring",
-    description:
-      "Founded in 2017, TreasurySpring is a ground-breaking platform revolutionising institutional term cash investment. TreasurySpring makes it easy for companies from FTSE 100 corporations and leading multinationals to series A start-ups and scale-ups to access a simple and secure platform for their cash which delivers higher returns, reduces risk, and enables diversification. Over the past six years, TreasurySpring has built the underlying infrastructure which enables companies through a single digital onboarding to quickly place their excess cash in over 600 regulated and standardised products across seven different currencies. https://treasuryspring.com/",
-    creationDate: "2017",
-    productName: "",
-    location: "Channel Islands",
-    companyCategories: [1],
-    companySubcategories: [1],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227792/treasuryspring_0_enehje.png",
-    userId: 3,
-    companyOffices: [1, 3, 5],
-  },
-  {
-    name: "UTSIT",
-    description:
-      "UTSIT is a consultancy company, fully owned by UTSIT collaborators, founded in 2002 to bring to MNC’s corporate treasurers a combined IT and business expertise. Our mission is to support Corporate Treasurers during all steps of IT projects in treasury and payments: audit & benchmark, design target model, RFI/RFP, solution setup, roll-out and maintenance and PMO. UTSIT consultants are recognized for their expertise and soft skills to deliver projects in close relationship with Treasury and IT teams. For last 20 years UTSIT has developed strong relationships with Treasury and Payments vendors. This organization allows consultants to be certified or experienced experts with main solutions. UTSIT also works for banks, software vendors and SWIFT. Acting on behalf of biggest Corporates, UTSIT did take a crucial part in SWIFT for Corporate creation and take-off. Since this pioneer time, UTSIT kept a strong and friendly relationship with SWIFT and banks all over the world. In 2017, UTSIT established in Singapore to lead treasury projects for large corporates across the region. Since 2004 UTSIT is founder and co-organizer of UNIVERSWIFTNET, a yearly basis forum dedicated to corporate-to-bank relationship gathering 1,200 attendees from corporate treasuries, banks and vendors to dialogue about trends and innovation.",
-    creationDate: "2002",
-    productName: "",
-    location: "France",
-    companyCategories: [4],
+    name: "category-1-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
     companySubcategories: [],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227844/utsit_kraquu.png",
-    userId: 3,
-    companyOffices: [1, 3, 5],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650671/category-1-logo-5_ybaydw.png"
   },
   {
-    name: "Finastra",
-    description:
-      "Finastra is a global provider of financial software applications and marketplaces, and launched the leading open platform for innovation, FusionFabric.cloud, in 2017. It serves institutions of all sizes, providing award-winning software solutions and services across Lending, Payments, Treasury & Capital Markets and Universal Banking (Retail, Digital and Commercial Banking) for banks to support direct banking relationships and grow through indirect channels, such as embedded finance and Banking as a Service. Its pioneering approach and commitment to open finance and collaboration is why it is trusted by over 8,000 institutions, including 45 of the world’s top 50 banks. For more information, visit finastra.com.",
-    creationDate: "1995",
-    productName: "SaaS solutions",
-    location: "London UK",
-    companyCategories: [6],
+    name: "category-1-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
     companySubcategories: [],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227909/Finastra_etfdlo.png",
-    userId: 3,
-    companyOffices: [1, 3, 5],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650672/category-1-logo-6_bsyqgw.png"
   },
   {
-    name: "Crowd Data Systems",
-    description:
-      '"Crowd Data Systems (CDS) was formed to develop the first “True SaaS" platform for corporate treasury, providing cash management, forecasting, treasury and risk management in a collaborative framework."',
-    creationDate: "2022",
-    productName: "Vision",
-    location: "UK",
-    companyCategories: [6],
-    companySubcategories: [1, 2, 3, 7],
-    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227961/Crowd_Data_Systems_old4gu.png",
-    userId: 3,
-    companyOffices: [1, 3, 5],
+    name: "category-1-logo-7",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650672/category-1-logo-7_ahaqqo.png"
   },
-];
+  {
+    name: "category-1-logo-8",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650673/category-1-logo-8_vw4trz.png"
+  },
+  {
+    name: "category-1-logo-9",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650674/category-1-logo-9_fnewxx.png"
+  },
+  {
+    name: "category-1-logo-10",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650674/category-1-logo-10_yxtdqj.png"
+  },
+  {
+    name: "category-1-logo-11",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      1
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650675/category-1-logo-11_bc4wi8.png"
+  },
+  {
+    name: "category-2-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      2
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650676/category-2-logo-1_vubye4.png"
+  },
+  {
+    name: "category-2-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      2
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650676/category-2-logo-2_abonzm.png"
+  },
+  {
+    name: "category-2-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      2
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650677/category-2-logo-3_iksr8g.png"
+  },
+  {
+    name: "category-2-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      2
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650678/category-2-logo-4_gh4vbz.png"
+  },
+  {
+    name: "category-2-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      2
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650678/category-2-logo-5_ehe47t.png"
+  },
+  {
+    name: "category-3-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      3
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650679/category-3-logo-1_iavrnz.png"
+  },
+  {
+    name: "category-3-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      3
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650680/category-3-logo-2_sahbc9.png"
+  },
+  {
+    name: "category-3-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      3
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650680/category-3-logo-3_r3po12.png"
+  },
+  {
+    name: "category-3-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      3
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650681/category-3-logo-4_u3whgw.png"
+  },
+  {
+    name: "category-3-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      3
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650682/category-3-logo-5_nexqfo.png"
+  },
+  {
+    name: "category-4-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650683/category-4-logo-1_kauie9.png"
+  },
+  {
+    name: "category-4-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650683/category-4-logo-2_qx0bmf.png"
+  },
+  {
+    name: "category-4-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650684/category-4-logo-3_mwtxmb.png"
+  },
+  {
+    name: "category-4-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650684/category-4-logo-4_qv8ktr.png"
+  },
+  {
+    name: "category-4-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650685/category-4-logo-5_ghmif5.png"
+  },
+  {
+    name: "category-4-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650686/category-4-logo-6_wyvfps.png"
+  },
+  {
+    name: "category-4-logo-7",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650686/category-4-logo-7_cmp9gh.png"
+  },
+  {
+    name: "category-4-logo-8",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650687/category-4-logo-8_eecl2c.png"
+  },
+  {
+    name: "category-4-logo-9",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      4
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650688/category-4-logo-9_kdirpc.png"
+  },
+  {
+    name: "category-5-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650688/category-5-logo-1_lrcal7.png"
+  },
+  {
+    name: "category-5-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650689/category-5-logo-2_bfkpxi.png"
+  },
+  {
+    name: "category-5-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650690/category-5-logo-3_qrbqxu.png"
+  },
+  {
+    name: "category-5-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650690/category-5-logo-4_odjjsb.png"
+  },
+  {
+    name: "category-5-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650691/category-5-logo-5_mhs7m0.png"
+  },
+  {
+    name: "category-5-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650692/category-5-logo-6_zr7heh.png"
+  },
+  {
+    name: "category-5-logo-7",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650693/category-5-logo-7_hm0evh.png"
+  },
+  {
+    name: "category-5-logo-8",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650693/category-5-logo-8_cucfrs.png"
+  },
+  {
+    name: "category-5-logo-9",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650560/category-5-logo-9_vnuzlw.png"
+  },
+  {
+    name: "category-5-logo-10",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650561/category-5-logo-10_jmiqkz.png"
+  },
+  {
+    name: "category-5-logo-11",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650561/category-5-logo-11_gjclb0.png"
+  },
+  {
+    name: "category-5-logo-12",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650561/category-5-logo-12_g9mtgj.png"
+  },
+  {
+    name: "category-5-logo-13",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      5
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650563/category-5-logo-13_dsuvka.png"
+  },
+  {
+    name: "category-6-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650563/category-6-logo-1_vwwokg.png"
+  },
+  {
+    name: "category-6-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650564/category-6-logo-2_huabzc.png"
+  },
+  {
+    name: "category-6-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650565/category-6-logo-3_snbhgb.png"
+  },
+  {
+    name: "category-6-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650565/category-6-logo-4_bzpmai.png"
+  },
+  {
+    name: "category-6-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650566/category-6-logo-5_k7tco9.png"
+  },
+  {
+    name: "category-6-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650566/category-6-logo-6_julhsu.png"
+  },
+  {
+    name: "category-6-logo-7",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650567/category-6-logo-7_fwanuu.png"
+  },
+  {
+    name: "category-6-logo-8",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650568/category-6-logo-8_vbe8yu.png"
+  },
+  {
+    name: "category-6-logo-9",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650569/category-6-logo-9_zn74ck.png"
+  },
+  {
+    name: "category-6-logo-10",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650569/category-6-logo-10_dctowk.png"
+  },
+  {
+    name: "category-6-logo-11",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650570/category-6-logo-11_u9aynn.png"
+  },
+  {
+    name: "category-6-logo-12",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650571/category-6-logo-12_x2o1wk.png"
+  },
+  {
+    name: "category-6-logo-13",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650571/category-6-logo-13_iftn8r.png"
+  },
+  {
+    name: "category-6-logo-14",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650572/category-6-logo-14_ptes2e.png"
+  },
+  {
+    name: "category-6-logo-15",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650573/category-6-logo-15_wzpefs.png"
+  },
+  {
+    name: "category-6-logo-16",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650573/category-6-logo-16_qtlowr.png"
+  },
+  {
+    name: "category-6-logo-17",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      6
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650574/category-6-logo-17_xxj3f7.png"
+  },
+  {
+    name: "category-7-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      7
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650574/category-7-logo-1_hmpehd.png"
+  },
+  {
+    name: "category-7-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      7
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650575/category-7-logo-2_o3wg28.png"
+  },
+  {
+    name: "category-7-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      7
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650576/category-7-logo-3_unravz.png"
+  },
+  {
+    name: "category-7-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      7
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650577/category-7-logo-4_dwql4f.png"
+  },
+  {
+    name: "category-7-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      7
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650578/category-7-logo-5_pgtlmc.png"
+  },
+  {
+    name: "category-7-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      7
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650601/category-7-logo-6_fzxjt7.png"
+  },
+  {
+    name: "category-7-logo-7",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      7
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650633/category-7-logo-7_i48ztd.png"
+  },
+  {
+    name: "category-7-logo-8",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      7
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650633/category-7-logo-8_kpxhtq.png"
+  },
+  {
+    name: "category-8-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      8
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650633/category-8-logo-1_focaop.png"
+  },
+  {
+    name: "category-8-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      8
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650634/category-8-logo-2_tsjbq9.png"
+  },
+  {
+    name: "category-8-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      8
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650634/category-8-logo-3_ohh3k3.png"
+  },
+  {
+    name: "category-8-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      8
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650636/category-8-logo-4_buz2pm.png"
+  },
+  {
+    name: "category-8-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      8
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650637/category-8-logo-5_mtt2iv.png"
+  },
+  {
+    name: "category-8-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      8
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650637/category-8-logo-6_g9e0qf.png"
+  },
+  {
+    name: "category-8-logo-7",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      8
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650638/category-8-logo-7_axkh0x.png"
+  },
+  {
+    name: "category-9-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      9
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650639/category-9-logo-1_t0kr2r.png"
+  },
+  {
+    name: "category-9-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      9
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650639/category-9-logo-2_jlizlt.png"
+  },
+  {
+    name: "category-9-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      9
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650640/category-9-logo-3_uygbsd.png"
+  },
+  {
+    name: "category-9-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      9
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650641/category-9-logo-4_ztt6t6.png"
+  },
+  {
+    name: "category-9-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      9
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650641/category-9-logo-5_rzsb3i.png"
+  },
+  {
+    name: "category-10-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      10
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650642/category-10-logo-1_umeyvl.png"
+  },
+  {
+    name: "category-10-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      10
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650642/category-10-logo-2_o9fxn6.png"
+  },
+  {
+    name: "category-10-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      10
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650644/category-10-logo-3_cfbbpr.png"
+  },
+  {
+    name: "category-10-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      10
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650644/category-10-logo-4_trfdxc.png"
+  },
+  {
+    name: "category-10-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      10
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650645/category-10-logo-5_nepeyv.png"
+  },
+  {
+    name: "category-10-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      10
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650645/category-10-logo-6_kq1ohr.png"
+  },
+  {
+    name: "category-10-logo-7",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      10
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650646/category-10-logo-7_mdl6eq.png"
+  },
+  {
+    name: "category-10-logo-8",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      10
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650647/category-10-logo-8_crcoao.png"
+  },
+  {
+    name: "category-11-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      11
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650648/category-11-logo-1_y8tsdh.png"
+  },
+  {
+    name: "category-11-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      11
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650648/category-11-logo-2_hkxupx.png"
+  },
+  {
+    name: "category-11-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      11
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650649/category-11-logo-3_xs8cbb.png"
+  },
+  {
+    name: "category-11-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      11
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650649/category-11-logo-4_luhgef.png"
+  },
+  {
+    name: "category-11-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      11
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650650/category-11-logo-5_n9n5tk.png"
+  },
+  {
+    name: "category-11-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      11
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650651/category-11-logo-6_b8wvhh.png"
+  },
+  {
+    name: "category-12-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      12
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650652/category-12-logo-1_n7ynnh.png"
+  },
+  {
+    name: "category-12-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      12
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650653/category-12-logo-2_vh2qke.png"
+  },
+  {
+    name: "category-12-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      12
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650653/category-12-logo-3_m9fbh8.png"
+  },
+  {
+    name: "category-12-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      12
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650653/category-12-logo-4_hgpynx.png"
+  },
+  {
+    name: "category-13-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650654/category-13-logo-1_bernvu.png"
+  },
+  {
+    name: "category-13-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650655/category-13-logo-2_qdlz2l.png"
+  },
+  {
+    name: "category-13-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650655/category-13-logo-3_wbsq9r.png"
+  },
+  {
+    name: "category-13-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650656/category-13-logo-4_wppbuc.png"
+  },
+  {
+    name: "category-13-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650657/category-13-logo-5_ljoujs.png"
+  },
+  {
+    name: "category-13-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650657/category-13-logo-6_vwped7.png"
+  },
+  {
+    name: "category-13-logo-7",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650658/category-13-logo-7_paaz0u.png"
+  },
+  {
+    name: "category-13-logo-8",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650658/category-13-logo-8_hxvfy0.png"
+  },
+  {
+    name: "category-13-logo-9",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650659/category-13-logo-9_v5l00r.png"
+  },
+  {
+    name: "category-13-logo-10",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650660/category-13-logo-10_fsiwuo.png"
+  },
+  {
+    name: "category-13-logo-11",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650661/category-13-logo-11_uzlduc.png"
+  },
+  {
+    name: "category-13-logo-12",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650661/category-13-logo-12_lnff4u.png"
+  },
+  {
+    name: "category-13-logo-13",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650662/category-13-logo-13_sba7xx.png"
+  },
+  {
+    name: "category-13-logo-14",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650663/category-13-logo-14_ukzdfk.png"
+  },
+  {
+    name: "category-13-logo-15",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      13
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650663/category-13-logo-15_ted33o.png"
+  },
+  {
+    name: "category-14-logo-1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      14
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650664/category-14-logo-1_ort3c6.png"
+  },
+  {
+    name: "category-14-logo-2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      14
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650665/category-14-logo-2_ax7txy.png"
+  },
+  {
+    name: "category-14-logo-3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      14
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650666/category-14-logo-3_jtdgs7.png"
+  },
+  {
+    name: "category-14-logo-4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      14
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650666/category-14-logo-4_bqs9xx.png"
+  },
+  {
+    name: "category-14-logo-5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      14
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650667/category-14-logo-5_kaqxvr.png"
+  },
+  {
+    name: "category-14-logo-6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    creationDate: "N/A",
+    turnover: 1,
+    employees: "N/A",
+    location: "N/A",
+    userId: 1,
+    companyWebsite: "N/A",
+    companyOffices: [1,2],
+    companyCategories: [
+      14
+    ],
+    companySubcategories: [],
+    productName: "N/A",
+    productVersion: "N/A",
+    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650668/category-14-logo-6_s8ec76.png"
+  }
+]
 
 const questions = [
   {
