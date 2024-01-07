@@ -4,6 +4,8 @@ const SubCategories = require("../models/subcategories.models");
 const Companies = require("../models/companies.models");
 const Questions = require("../models/questions.models");
 const Countries = require("../models/countries.models");
+const Videos = require("../models/videos.models");
+const Articles = require("../models/articles.models");
 
 const users = [
   {
@@ -195,6 +197,7 @@ const companies = [
     companySubcategories: [1, 18],
     logo: "",
     userId: 1,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "Nomentia",
@@ -209,6 +212,7 @@ const companies = [
     ],
     logo: "",
     userId: 1,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "SGX FX",
@@ -221,6 +225,7 @@ const companies = [
     companySubcategories: [1, 2, 3, 4],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227252/SGX_FX_Logo_RGB_hqlwmq.png",
     userId: 1,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "ConVista",
@@ -233,6 +238,7 @@ const companies = [
     companySubcategories: [],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227404/convista-Logo-RGB_evchto.png",
     userId: 1,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "ION Treasury",
@@ -246,6 +252,7 @@ const companies = [
     companySubcategories: [1, 2, 3],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227475/ion_kadbbu.png",
     userId: 2,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "Finologee",
@@ -258,6 +265,7 @@ const companies = [
     companySubcategories: [1, 2, 13],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227533/Finologee-new_tth8tq.png",
     userId: 2,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "TransferMate",
@@ -270,6 +278,7 @@ const companies = [
     companySubcategories: [3],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227581/Logo_Transfermate_gzfg1f.png",
     userId: 2,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "Onbrane",
@@ -282,6 +291,7 @@ const companies = [
     companySubcategories: [4, 11, 25],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227634/Onbrane1_tzwied.png",
     userId: 2,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "Trustpair",
@@ -294,6 +304,7 @@ const companies = [
     companySubcategories: [2, 25],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227682/Logo_Trustpair_qlgwpa.png",
     userId: 2,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "NX PARTNERS",
@@ -306,6 +317,7 @@ const companies = [
     companySubcategories: [],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227735/NX-Partners_logo_Top-menu_dnpqbm.png",
     userId: 2,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "TreasurySpring",
@@ -318,6 +330,7 @@ const companies = [
     companySubcategories: [1],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227792/treasuryspring_0_enehje.png",
     userId: 3,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "UTSIT",
@@ -330,6 +343,7 @@ const companies = [
     companySubcategories: [],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227844/utsit_kraquu.png",
     userId: 3,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "Finastra",
@@ -342,6 +356,7 @@ const companies = [
     companySubcategories: [],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227909/Finastra_etfdlo.png",
     userId: 3,
+    companyOffices: [1, 3, 5],
   },
   {
     name: "Crowd Data Systems",
@@ -354,6 +369,7 @@ const companies = [
     companySubcategories: [1, 2, 3, 7],
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704227961/Crowd_Data_Systems_old4gu.png",
     userId: 3,
+    companyOffices: [1, 3, 5],
   },
 ];
 
@@ -411,6 +427,32 @@ const countries = [
   },
 ];
 
+const videos = [
+  {
+    title: "Video 1",
+    url: "https://www.youtube.com/embed/FNCGO55mLJo",
+    companyId: 1,
+  },
+  {
+    title: "Video 2",
+    url: "https://www.youtube.com/embed/42FPnvg81u4",
+    companyId: 2,
+  },
+];
+
+const articles = [
+  {
+    title: "Article 1",
+    body: "This is the body of the article 1",
+    companyId: 1,
+  },
+  {
+    title: "Article 2",
+    body: "This is the body of the article 2",
+    companyId: 2,
+  },
+];
+
 const seeder = async () => {
   for (const user of users) {
     try {
@@ -461,6 +503,24 @@ const seeder = async () => {
       }
     }
   }, 1500);
+
+  setTimeout(async () => {
+    for (const video of videos) {
+      try {
+        const response = await Videos.create(video);
+      } catch (error) {
+        console.error("Error creating companies:", error);
+      }
+    }
+    for (const article of articles) {
+      try {
+        const response = await Articles.create(article);
+      } catch (error) {
+        console.error("Error creating companies:", error);
+      }
+    }
+  }, 2000);
+
   console.log("EXITO");
 };
 
