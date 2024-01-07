@@ -9,6 +9,17 @@ const getAllCategories = async (req, res, next) => {
   }
 };
 
+const getCategoryById = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const result = await CategoriesServices.getCategoryById(id);
+    return res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   getAllCategories,
+  getCategoryById,
 };
