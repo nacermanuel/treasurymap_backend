@@ -4,7 +4,7 @@ const categoriesTemplate =
             id: 0,
             categoryName: 'Category 1',
             categoryKey: 'category-1',
-            categoryImage: './assets/interactive-map/categories/category-1.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676482/category-1rrr_p6nk7i.png',
             class: '',
             logos: []
           },
@@ -12,91 +12,91 @@ const categoriesTemplate =
             id: 1,
             categoryName: 'Category 2',
             categoryKey: 'category-2',
-            categoryImage: './assets/interactive-map/categories/category-2.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676482/category-2rr_lbet9k.png',
             logos: []
           },
           {
             id: 2,
             categoryName: 'Category 3',
             categoryKey: 'category-3',
-            categoryImage: './assets/interactive-map/categories/category-3.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676482/category-3rrr_yvi1nx.png',
             logos: []
           },
           {
             id: 3,
             categoryName: 'Category 4',
             categoryKey: 'category-4',
-            categoryImage: './assets/interactive-map/categories/category-4.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676483/category-4_ff59jz.png',
             logos: []
           },
           {
             id: 4,
             categoryName: 'Category 5',
             categoryKey: 'category-5',
-            categoryImage: './assets/interactive-map/categories/category-5.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676484/category-5_l8vvd5.png',
             logos: []
           },
           {
             id: 5,
             categoryName: 'Category 6',
             categoryKey: 'category-6',
-            categoryImage: './assets/interactive-map/categories/category-6.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676484/category-6_hdhndm.png',
             logos: []
           },
           {
             id: 6,
             categoryName: 'Category 7',
             categoryKey: 'category-7',
-            categoryImage: './assets/interactive-map/categories/category-7.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676485/category-7_c0qn7f.png',
             logos: []
           },
           {
             id: 7,
             categoryName: 'Category 8',
             categoryKey: 'category-8',
-            categoryImage: './assets/interactive-map/categories/category-8.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676486/category-8_kqoy1i.png',
             logos: []
           },
           {
             id: 8,
             categoryName: 'Category 9',
             categoryKey: 'category-9',
-            categoryImage: './assets/interactive-map/categories/category-9.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676487/category-9_mgxpro.png',
             logos: []
           },
           {
             id: 9,
             categoryName: 'Category 10',
             categoryKey: 'category-10',
-            categoryImage: './assets/interactive-map/categories/category-10.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676487/category-10_tlgzrs.png',
             logos: []
           },
           {
             id: 10,
             categoryName: 'Category 11',
             categoryKey: 'category-11',
-            categoryImage: './assets/interactive-map/categories/category-11.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676488/category-11_rdvsnk.png',
             logos: []
           },
           {
             id: 11,
             categoryName: 'Category 12',
             categoryKey: 'category-12',
-            categoryImage: './assets/interactive-map/categories/category-12.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676489/category-12_aczikh.png',
             logos: []
           },
           {
             id: 12,
             categoryName: 'Category 13',
             categoryKey: 'category-13',
-            categoryImage: './assets/interactive-map/categories/category-13.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676490/category-13_u1qgvt.png',
             logos: []
           },
           {
             id: 13,
             categoryName: 'Category 14',
             categoryKey: 'category-14',
-            categoryImage: './assets/interactive-map/categories/category-14.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676490/category-14_mb3pcp.png',
             logos: []
           },
         ];
