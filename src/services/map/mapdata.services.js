@@ -28,7 +28,7 @@ async function processCategories() {
                     category.logos.push(
                         {
                             image: company.logo || '',
-                            url: `https://treasurymapbackend-production.up.railway.app/api/v1/companies/${company.id}`,
+                            url: `https://treasurymap.vercel.app/companyPage/${company.id}`,
                             keywords: [],
                             subcategories: company.companySubcategories || [],
                             headequarterLocation: company.location || '',
