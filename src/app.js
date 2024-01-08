@@ -24,10 +24,10 @@ db.authenticate()
   .then(() => console.log("BD authenticate"))
   .catch((error) => console.log(error));
 
-db.sync({ force: true })
+db.sync({ force: false })
   .then(() => {
     console.log("db synched");
-    seeder();
+    // seeder();
   })
   .catch((error) => console.log(error));
 
