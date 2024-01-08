@@ -1340,7 +1340,7 @@ const companies = [
     companySubcategories: [10, 11, 22],
     productName: "N/A",
     productVersion: "N/A",
-    logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650633/category-7-logo-8_kpxhtq.png",
+    logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704690455/1280px-HD_transparent_picture_npummp.png",
   },
   {
     name: "category-8-logo-1",
