@@ -9,6 +9,14 @@ class SubCategoriesServices {
       throw error;
     }
   }
+  static async getSubCategoryById(id) {
+    try {
+      const result = await SubCategories.findByPk(id);
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = SubCategoriesServices;
