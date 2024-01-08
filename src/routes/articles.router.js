@@ -1,17 +1,13 @@
 const { Router } = require("express");
 const router = Router();
 const {
-    CreateArticle,
-    GetArticleByCompanyId,
-    DeleteArticle,
+  CreateArticle,
+  GetArticleByCompanyId,
+  DeleteArticle,
 } = require("../controllers/articles.controllers");
 
-
-router.post("/create", CreateArticle );
-router.get("/all/:companyId", GetArticleByCompanyId)
-router.delete("/:articleid",DeleteArticle)
-
-/*INSERT*/
-
+router.get("/all/:companyId", GetArticleByCompanyId);
+router.post("/create/:companyId", CreateArticle);
+router.delete("/:articleid", DeleteArticle);
 
 module.exports = router;
