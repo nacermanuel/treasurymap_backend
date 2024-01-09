@@ -43,6 +43,24 @@ class VideosServices {
       throw error;
     }
   }
+  static async GetVideoByIdService(videoId) {
+    try {
+      const result = await Videos.findByPk(videoId);
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
+  static async UpdateVideoService(videoId, videoData) {
+    try {
+      const result = await Videos.update(videoData, {
+        where: { id: videoId },
+      });
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = VideosServices;
