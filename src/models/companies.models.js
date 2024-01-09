@@ -67,6 +67,9 @@ const Companies = db.define("companies", {
   logo: {
     type: DataTypes.STRING,
   },
+  keywords: {
+    type: DataTypes.ARRAY(DataTypes.STRING)
+  }
 });
 
 module.exports = Companies;
