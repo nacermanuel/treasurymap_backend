@@ -4,7 +4,7 @@ const categoriesTemplate = require("./categoriesTemplate.js");
 // Function to fetch company data
 async function fetchCompanies() {
     try {
-        const response = await fetch('https://treasurymapbackend-production.up.railway.app/api/v1/companies/');
+        const response = await fetch('https://treasurymapbackend-production.up.railway.app/api/v1/companies');
         const data = await response.json();
         return data; // Return the fetched data
     } catch (error) {
