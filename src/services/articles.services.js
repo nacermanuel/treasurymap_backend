@@ -43,6 +43,24 @@ class ArticlesServices {
       throw error;
     }
   }
+  static async GetArticleByIdService(articleid) {
+    try {
+      const result = await Articles.findByPk(articleid);
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
+  static async UpdateArticleService(articleId, articleData) {
+    try {
+      const result = await Articles.update(articleData, {
+        where: { id: articleId },
+      });
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = ArticlesServices;

@@ -50,8 +50,34 @@ const DeleteArticle = async (req, res) => {
   }
 };
 
+const GetArticleById = async (req, res, next) => {
+  try {
+    const { articleId } = req.params;
+    const result = await ArticlesServices.GetArticleByIdService(articleId);
+    res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+};
+
+const updateArticle = async (req, res, next) => {
+  try {
+    const { articleId } = req.params;
+    const articleData = req.body;
+    const result = await ArticlesServices.UpdateArticleService(
+      articleId,
+      articleData
+    );
+    res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   CreateArticle,
   GetArticleByCompanyId,
   DeleteArticle,
+  GetArticleById,
+  updateArticle,
 };

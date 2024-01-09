@@ -48,8 +48,31 @@ const DeleteVideo = async (req, res) => {
   }
 };
 
+const getVideoById = async (req, res, next) => {
+  try {
+    const { videoId } = req.params;
+    const result = await VideosServices.GetVideoByIdService(videoId);
+    res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+};
+
+const updateVideo = async (req, res, next) => {
+  try {
+    const { videoId } = req.params;
+    const videoData = req.body;
+    const result = await VideosServices.UpdateVideoService(videoId, videoData);
+    res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   CreateVideo,
   GetVideoByCompanyId,
   DeleteVideo,
+  getVideoById,
+  updateVideo,
 };
