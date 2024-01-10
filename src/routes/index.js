@@ -10,6 +10,7 @@ const questionsRoutes = require("./questions.router");
 const mapdataRoutes = require("./mapdata.router.js");
 const countriesRoutes = require("./countries.router");
 const usersRoutes = require("./users.router.js");
+const emailsRoutes = require("./emails.router.js");
 const error = require("../middlewares/error.middleware");
 
 const routerApi = (app) => {
@@ -25,6 +26,7 @@ const routerApi = (app) => {
   app.use("/api/v1/mapdata", mapdataRoutes, error);
   app.use("/api/v1/countries", countriesRoutes, error);
   app.use("/api/v1/users", usersRoutes, error);
+  app.use("/api/v1/email", emailsRoutes);
 };
 
 module.exports = routerApi;
