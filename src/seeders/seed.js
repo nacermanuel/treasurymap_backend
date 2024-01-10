@@ -174,6 +174,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650668/category-1-logo-1_iyigt8.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-2",
@@ -191,6 +192,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650669/category-1-logo-2_cy6uby.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-3",
@@ -208,6 +210,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650669/category-1-logo-3_te6col.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-4",
@@ -225,6 +228,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650670/category-1-logo-4_zqhttp.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-5",
@@ -242,6 +246,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650671/category-1-logo-5_ybaydw.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-6",
@@ -259,6 +264,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650672/category-1-logo-6_bsyqgw.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-7",
@@ -276,6 +282,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650672/category-1-logo-7_ahaqqo.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-8",
@@ -293,6 +300,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704691851/category-1-logo-8_qbcrda.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-9",
@@ -310,6 +318,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650674/category-1-logo-9_fnewxx.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-10",
@@ -327,6 +336,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650674/category-1-logo-10_yxtdqj.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-1-logo-11",
@@ -344,6 +354,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650675/category-1-logo-11_bc4wi8.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-2-logo-1",
@@ -361,6 +372,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650676/category-2-logo-1_vubye4.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-2-logo-2",
@@ -378,6 +390,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650676/category-2-logo-2_abonzm.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-2-logo-3",
@@ -395,6 +408,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650677/category-2-logo-3_iksr8g.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-2-logo-4",
@@ -412,6 +426,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650678/category-2-logo-4_gh4vbz.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-2-logo-5",
@@ -429,6 +444,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650678/category-2-logo-5_ehe47t.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-3-logo-1",
@@ -446,6 +462,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650679/category-3-logo-1_iavrnz.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-3-logo-2",
@@ -463,6 +480,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650680/category-3-logo-2_sahbc9.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-3-logo-3",
@@ -480,6 +498,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650680/category-3-logo-3_r3po12.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-3-logo-4",
@@ -497,6 +516,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650681/category-3-logo-4_u3whgw.png",
+    keywords: ['finance', 'bank'],
   },
   {
     name: "category-3-logo-5",
@@ -514,6 +534,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650682/category-3-logo-5_nexqfo.png",
+    keywords: [],
   },
   {
     name: "category-4-logo-1",
@@ -531,6 +552,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650683/category-4-logo-1_kauie9.png",
+    keywords: [],
   },
   {
     name: "category-4-logo-2",
@@ -548,6 +570,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650683/category-4-logo-2_qx0bmf.png",
+    keywords: [],
   },
   {
     name: "category-4-logo-3",
@@ -565,6 +588,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650684/category-4-logo-3_mwtxmb.png",
+    keywords: [],
   },
   {
     name: "category-4-logo-4",
@@ -582,6 +606,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650684/category-4-logo-4_qv8ktr.png",
+    keywords: [],
   },
   {
     name: "category-4-logo-5",
@@ -599,6 +624,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650685/category-4-logo-5_ghmif5.png",
+    keywords: [],
   },
   {
     name: "category-4-logo-6",
@@ -616,6 +642,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650686/category-4-logo-6_wyvfps.png",
+    keywords: [],
   },
   {
     name: "category-4-logo-7",
@@ -633,6 +660,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650686/category-4-logo-7_cmp9gh.png",
+    keywords: [],
   },
   {
     name: "category-4-logo-8",
@@ -650,6 +678,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650687/category-4-logo-8_eecl2c.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-4-logo-9",
@@ -667,6 +696,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650688/category-4-logo-9_kdirpc.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-1",
@@ -684,6 +714,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650688/category-5-logo-1_lrcal7.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-2",
@@ -701,6 +732,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650689/category-5-logo-2_bfkpxi.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-3",
@@ -718,6 +750,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650690/category-5-logo-3_qrbqxu.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-4",
@@ -735,6 +768,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650690/category-5-logo-4_odjjsb.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-5",
@@ -752,6 +786,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650691/category-5-logo-5_mhs7m0.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-6",
@@ -769,6 +804,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650692/category-5-logo-6_zr7heh.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-7",
@@ -786,6 +822,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650693/category-5-logo-7_hm0evh.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-8",
@@ -803,6 +840,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650693/category-5-logo-8_cucfrs.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-9",
@@ -820,6 +858,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650560/category-5-logo-9_vnuzlw.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-10",
@@ -837,6 +876,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650561/category-5-logo-10_jmiqkz.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-11",
@@ -854,6 +894,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650561/category-5-logo-11_gjclb0.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-12",
@@ -871,6 +912,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650561/category-5-logo-12_g9mtgj.png",
+    keywords: ['global', 'cash'],
   },
   {
     name: "category-5-logo-13",
@@ -888,6 +930,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650563/category-5-logo-13_dsuvka.png",
+    keywords: [],
   },
   {
     name: "category-6-logo-1",
@@ -905,6 +948,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650563/category-6-logo-1_vwwokg.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-2",
@@ -922,6 +966,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650564/category-6-logo-2_huabzc.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-3",
@@ -939,6 +984,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650565/category-6-logo-3_snbhgb.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-4",
@@ -956,6 +1002,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650565/category-6-logo-4_bzpmai.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-5",
@@ -973,6 +1020,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650566/category-6-logo-5_k7tco9.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-6",
@@ -990,6 +1038,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650566/category-6-logo-6_julhsu.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-7",
@@ -1007,6 +1056,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650567/category-6-logo-7_fwanuu.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-8",
@@ -1024,6 +1074,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650568/category-6-logo-8_vbe8yu.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-9",
@@ -1041,6 +1092,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650569/category-6-logo-9_zn74ck.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-10",
@@ -1058,6 +1110,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650569/category-6-logo-10_dctowk.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-11",
@@ -1075,6 +1128,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650570/category-6-logo-11_u9aynn.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-12",
@@ -1092,6 +1146,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650571/category-6-logo-12_x2o1wk.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-13",
@@ -1109,6 +1164,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650571/category-6-logo-13_iftn8r.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-14",
@@ -1126,6 +1182,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650572/category-6-logo-14_ptes2e.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-15",
@@ -1143,6 +1200,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650573/category-6-logo-15_wzpefs.png",
+    keywords: ['europe', 'treasury'],
   },
   {
     name: "category-6-logo-16",
@@ -1160,6 +1218,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650573/category-6-logo-16_qtlowr.png",
+    keywords: [],
   },
   {
     name: "category-6-logo-17",
@@ -1177,6 +1236,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650574/category-6-logo-17_xxj3f7.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-7-logo-1",
@@ -1194,6 +1254,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650574/category-7-logo-1_hmpehd.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-7-logo-2",
@@ -1211,6 +1272,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650575/category-7-logo-2_o3wg28.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-7-logo-3",
@@ -1228,6 +1290,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650576/category-7-logo-3_unravz.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-7-logo-4",
@@ -1245,6 +1308,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650577/category-7-logo-4_dwql4f.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-7-logo-5",
@@ -1262,6 +1326,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650578/category-7-logo-5_pgtlmc.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-7-logo-6",
@@ -1279,6 +1344,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650601/category-7-logo-6_fzxjt7.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-7-logo-7",
@@ -1296,6 +1362,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650633/category-7-logo-7_i48ztd.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-7-logo-8",
@@ -1313,6 +1380,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704690455/1280px-HD_transparent_picture_npummp.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-8-logo-1",
@@ -1330,6 +1398,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650633/category-8-logo-1_focaop.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-8-logo-2",
@@ -1347,6 +1416,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650634/category-8-logo-2_tsjbq9.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-8-logo-3",
@@ -1364,6 +1434,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650634/category-8-logo-3_ohh3k3.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-8-logo-4",
@@ -1381,6 +1452,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650636/category-8-logo-4_buz2pm.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-8-logo-5",
@@ -1398,6 +1470,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650637/category-8-logo-5_mtt2iv.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-8-logo-6",
@@ -1415,6 +1488,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650637/category-8-logo-6_g9e0qf.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-8-logo-7",
@@ -1432,6 +1506,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650638/category-8-logo-7_axkh0x.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-9-logo-1",
@@ -1449,6 +1524,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650639/category-9-logo-1_t0kr2r.png",
+    keywords: ['assets', 'erp','euro'],
   },
   {
     name: "category-9-logo-2",
@@ -1466,6 +1542,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650639/category-9-logo-2_jlizlt.png",
+    keywords: [],
   },
   {
     name: "category-9-logo-3",
@@ -1483,6 +1560,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650640/category-9-logo-3_uygbsd.png",
+    keywords: [],
   },
   {
     name: "category-9-logo-4",
@@ -1500,6 +1578,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650641/category-9-logo-4_ztt6t6.png",
+    keywords: [],
   },
   {
     name: "category-9-logo-5",
@@ -1517,6 +1596,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650641/category-9-logo-5_rzsb3i.png",
+    keywords: [],
   },
   {
     name: "category-10-logo-1",
@@ -1534,6 +1614,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650642/category-10-logo-1_umeyvl.png",
+    keywords: [],
   },
   {
     name: "category-10-logo-2",
@@ -1551,6 +1632,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650642/category-10-logo-2_o9fxn6.png",
+    keywords: [],
   },
   {
     name: "category-10-logo-3",
@@ -1568,6 +1650,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650644/category-10-logo-3_cfbbpr.png",
+    keywords: [],
   },
   {
     name: "category-10-logo-4",
@@ -1585,6 +1668,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650644/category-10-logo-4_trfdxc.png",
+    keywords: [],
   },
   {
     name: "category-10-logo-5",
@@ -1602,6 +1686,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650645/category-10-logo-5_nepeyv.png",
+    keywords: [],
   },
   {
     name: "category-10-logo-6",
@@ -1619,6 +1704,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650645/category-10-logo-6_kq1ohr.png",
+    keywords: [],
   },
   {
     name: "category-10-logo-7",
@@ -1636,6 +1722,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650646/category-10-logo-7_mdl6eq.png",
+    keywords: [],
   },
   {
     name: "category-10-logo-8",
@@ -1653,6 +1740,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650647/category-10-logo-8_crcoao.png",
+    keywords: [],
   },
   {
     name: "category-11-logo-1",
@@ -1670,6 +1758,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650648/category-11-logo-1_y8tsdh.png",
+    keywords: [],
   },
   {
     name: "category-11-logo-2",
@@ -1687,6 +1776,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650648/category-11-logo-2_hkxupx.png",
+    keywords: [],
   },
   {
     name: "category-11-logo-3",
@@ -1704,6 +1794,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650649/category-11-logo-3_xs8cbb.png",
+    keywords: [],
   },
   {
     name: "category-11-logo-4",
@@ -1721,6 +1812,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650649/category-11-logo-4_luhgef.png",
+    keywords: [],
   },
   {
     name: "category-11-logo-5",
@@ -1738,6 +1830,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650650/category-11-logo-5_n9n5tk.png",
+    keywords: [],
   },
   {
     name: "category-11-logo-6",
@@ -1755,6 +1848,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650651/category-11-logo-6_b8wvhh.png",
+    keywords: [],
   },
   {
     name: "category-12-logo-1",
@@ -1772,6 +1866,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650652/category-12-logo-1_n7ynnh.png",
+    keywords: [],
   },
   {
     name: "category-12-logo-2",
@@ -1789,6 +1884,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650653/category-12-logo-2_vh2qke.png",
+    keywords: [],
   },
   {
     name: "category-12-logo-3",
@@ -1806,6 +1902,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650653/category-12-logo-3_m9fbh8.png",
+    keywords: [],
   },
   {
     name: "category-12-logo-4",
@@ -1823,6 +1920,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650653/category-12-logo-4_hgpynx.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-1",
@@ -1840,6 +1938,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650654/category-13-logo-1_bernvu.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-2",
@@ -1857,6 +1956,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650655/category-13-logo-2_qdlz2l.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-3",
@@ -1874,6 +1974,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650655/category-13-logo-3_wbsq9r.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-4",
@@ -1891,6 +1992,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650656/category-13-logo-4_wppbuc.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-5",
@@ -1908,6 +2010,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650657/category-13-logo-5_ljoujs.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-6",
@@ -1925,6 +2028,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650657/category-13-logo-6_vwped7.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-7",
@@ -1942,6 +2046,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650658/category-13-logo-7_paaz0u.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-8",
@@ -1959,6 +2064,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650658/category-13-logo-8_hxvfy0.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-9",
@@ -1976,6 +2082,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650659/category-13-logo-9_v5l00r.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-10",
@@ -1993,6 +2100,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650660/category-13-logo-10_fsiwuo.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-11",
@@ -2010,6 +2118,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650661/category-13-logo-11_uzlduc.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-12",
@@ -2027,6 +2136,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650661/category-13-logo-12_lnff4u.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-13",
@@ -2044,6 +2154,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650662/category-13-logo-13_sba7xx.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-14",
@@ -2061,6 +2172,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650663/category-13-logo-14_ukzdfk.png",
+    keywords: [],
   },
   {
     name: "category-13-logo-15",
@@ -2078,6 +2190,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650663/category-13-logo-15_ted33o.png",
+    keywords: [],
   },
   {
     name: "category-14-logo-1",
@@ -2095,6 +2208,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650664/category-14-logo-1_ort3c6.png",
+    keywords: [],
   },
   {
     name: "category-14-logo-2",
@@ -2112,6 +2226,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650665/category-14-logo-2_ax7txy.png",
+    keywords: [],
   },
   {
     name: "category-14-logo-3",
@@ -2129,6 +2244,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650666/category-14-logo-3_jtdgs7.png",
+    keywords: [],
   },
   {
     name: "category-14-logo-4",
@@ -2146,6 +2262,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650666/category-14-logo-4_bqs9xx.png",
+    keywords: [],
   },
   {
     name: "category-14-logo-5",
@@ -2163,6 +2280,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650667/category-14-logo-5_kaqxvr.png",
+    keywords: [],
   },
   {
     name: "category-14-logo-6",
@@ -2180,6 +2298,7 @@ const companies = [
     productName: "N/A",
     productVersion: "N/A",
     logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650668/category-14-logo-6_s8ec76.png",
+    keywords: [],
   },
 ];
 

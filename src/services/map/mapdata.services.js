@@ -29,7 +29,7 @@ async function processCategories() {
                         {
                             image: company.logo || '',
                             url: `https://treasurymap.vercel.app/companyPage/${company.id}`,
-                            keywords: [],
+                            keywords: company.keywords || [],
                             subcategories: company.companySubcategories || [],
                             headequarterLocation: company.location || '',
                             activeIn: company.companyOffices || [],
