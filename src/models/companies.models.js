@@ -12,7 +12,8 @@ const Companies = db.define("companies", {
     type: DataTypes.STRING,
     field: "name",
     allowNull: false,
-    unique: true,
+    //Se cambio en ultimo momento
+    unique: false,
   },
   description: {
     type: DataTypes.STRING(1500),
