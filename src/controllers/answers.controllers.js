@@ -49,8 +49,21 @@ const GetAnswerByCompanyId = async (req, res) => {
   }
 };
 
+const deleteAllAnswersByCompanyId = async (req, res, next) => {
+  try {
+    const { companyId } = req.params;
+    const result = await AnswersServices.deleteAllAnswersByCompanyIdService(
+      companyId
+    );
+    return res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   CreateAnswer,
   GetAnswerByCompanyId,
   updateAnswer,
+  deleteAllAnswersByCompanyId,
 };

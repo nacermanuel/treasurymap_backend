@@ -50,6 +50,18 @@ class AnswersServices {
       throw error;
     }
   }
+
+  static async deleteAllAnswersByCompanyIdService(companyId) {
+    try {
+      await CompaniesAnswers.destroy({
+        where: {
+          companyId: companyId,
+        },
+      });
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = AnswersServices;
