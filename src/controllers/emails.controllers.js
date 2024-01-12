@@ -5,12 +5,14 @@ const sendEmail = async (req, res, next) => {
     const { company, message, name, email } = req.body;
     const result = await transporter.sendMail({
       to: "treasury.map.project@gmail.com",
-      subject: `${name}, ${company} - From Contact Us`,
+      subject: `From Contact Us - ${name}, ${company} `,
       html: `
-      <p>Email del cliente: ${email}</p>
-      <p>
-      ${message}
-      </p>`,
+      <p>Email: ${email}</p>
+      <p>Company: ${company}</p>
+      <p>Name: ${name}</p>
+      <p>Message: ${message}</p>
+      `
+      
     });
     return res.status(200).json(result);
   } catch (error) {
