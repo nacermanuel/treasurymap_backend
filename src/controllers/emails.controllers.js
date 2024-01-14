@@ -1,4 +1,6 @@
 const transporter = require("../utils/nodemailer");
+const AuthServices = require("../services/auth.services");
+const UsersServices = require("../services/users.services");
 
 const sendEmail = async (req, res, next) => {
   try {
@@ -51,8 +53,32 @@ const createMessage = async (req, res, next) => {
   }
 };
 
+const restorePassword = async (req, res, next) => {
+  try {
+    const { email } = req.body;
+    const userId = await UsersServices.getUserIdByEmail(email);
+    if (!userId) {
+      res.status(400).json({ message: "Wrong Email" });
+    } else {
+      const token = AuthServices.genToken({ userId });
+      const result = await transporter.sendMail({
+        to: email,
+        subject: "Restore Password",
+        html: `
+        <h5>For restore your password please go to this link https://treasurymap.com/restorePassword/${token}</h5>
+        <h6>That link is valid for only 10 minutes</h6>
+        `,
+      });
+      return res.status(200).json(result);
+    }
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   sendEmail,
   updateMessage,
   createMessage,
+  restorePassword,
 };
