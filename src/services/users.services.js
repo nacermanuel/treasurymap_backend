@@ -9,6 +9,16 @@ class UsersServices {
       throw error;
     }
   }
+  static async getUserIdByEmail(email) {
+    try {
+      const result = await Users.findOne({
+        where: { email },
+      });
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = UsersServices;
