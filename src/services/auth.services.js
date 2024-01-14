@@ -40,6 +40,18 @@ class AuthServices {
       throw error;
     }
   }
+
+  static async updatePassword(id, password) {
+    try {
+      const result = await Users.update(
+        { password: password },
+        { where: { id }, individualHooks: true }
+      );
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = AuthServices;

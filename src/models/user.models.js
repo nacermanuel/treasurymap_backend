@@ -9,7 +9,7 @@ const Users = db.define(
       primaryKey: true,
       type: DataTypes.INTEGER,
       autoIncrement: true,
-      allowNull: false,      
+      allowNull: false,
     },
     fullName: {
       type: DataTypes.STRING,
@@ -32,6 +32,11 @@ const Users = db.define(
   {
     hooks: {
       beforeCreate: (user, options) => {
+        const { password } = user;
+        const hash = bcrypt.hashSync(password, 10);
+        user.password = hash;
+      },
+      beforeUpdate: (user, options) => {
         const { password } = user;
         const hash = bcrypt.hashSync(password, 10);
         user.password = hash;
