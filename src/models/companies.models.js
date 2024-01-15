@@ -16,7 +16,7 @@ const Companies = db.define("companies", {
     unique: false,
   },
   description: {
-    type: DataTypes.STRING(1500),
+    type: DataTypes.STRING(6000),
     field: "description",
   },
   creationDate: {
@@ -62,7 +62,7 @@ const Companies = db.define("companies", {
     field: "product_name",
   },
   productVersion: {
-    type: DataTypes.STRING,
+    type: DataTypes.STRING(6000),
     field: "product_version",
   },
   logo: {
