@@ -19,6 +19,24 @@ class UsersServices {
       throw error;
     }
   }
+  static async getUserById(id) {
+    try {
+      const result = await Users.findByPk(id);
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
+  static async updateUserById(id, data) {
+    try {
+      const result = await Users.update(data, {
+        where: { id },
+      });
+      return result;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = UsersServices;
