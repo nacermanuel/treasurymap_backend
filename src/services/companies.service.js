@@ -22,7 +22,10 @@ class CompaniesServices {
     try {
       const companies = await Companies.findAll();
       if (companies.length) {
-        return companies;
+        const sortedCompanies = companies.sort((a, b) =>
+          a.name.localeCompare(b.name)
+        );
+        return sortedCompanies;
       } else {
         return false;
       }
