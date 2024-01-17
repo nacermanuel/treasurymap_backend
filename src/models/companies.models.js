@@ -70,7 +70,10 @@ const Companies = db.define("companies", {
   },
   keywords: {
     type: DataTypes.ARRAY(DataTypes.STRING)
-  }
+  },
+  live: {
+    type: DataTypes.BOOLEAN
+  }  
 });
 
 module.exports = Companies;
