@@ -33,6 +33,7 @@ async function processCategories() {
                             subcategories: company.companySubcategories || [],
                             headequarterLocation: company.location || '',
                             activeIn: company.companyOffices || [],
+                            live: company.live
                         }
                     ); // Store company data
                 }
