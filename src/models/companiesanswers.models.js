@@ -9,7 +9,7 @@ const CompaniesAnswers = db.define("companies_answers", {
     allowNull: false,
   },
   answer: {
-    type: DataTypes.STRING,
+    type: DataTypes.STRING(1000),
     allowNull: false,
   },
   companyId: {
