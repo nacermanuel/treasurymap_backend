@@ -349,11 +349,6 @@ const users = [
   "password": "12345"
  },
  {
-  "fullName": "Category-7-Logo-8",
-  "email": "category-7-logo-8@admin.com",
-  "password": "12345"
- },
- {
   "fullName": "TreaSolution Inc",
   "email": "treasolutioninc@admin.com",
   "password": "12345"
@@ -784,8 +779,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704951394/category-1-logo-1_clbiiv.png",
   keywords: ["Fx All"],
-  live:true
-},
+  live: true
+ },
  {
   name: "My Treasury",
   description: "N/A",
@@ -802,8 +797,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704952479/category-1-logo-2_tuibih.png",
   keywords: ["My Treasury"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Treasury Springs",
   description: "Founded in 2017, TreasurySpring is a ground-breaking platform revolutionising institutional term cash investment. TreasurySpring makes it easy for companies from FTSE 100 corporations and leading multinationals to series A start-ups and scale-ups to access a simple and secure platform for their cash which delivers higher returns, reduces risk, and enables diversification. Over the past six years, TreasurySpring has built the underlying infrastructure which enables companies through a single digital onboarding to quickly place their excess cash in over 600 regulated and standardised products across seven different currencies.",
@@ -820,8 +815,8 @@ const companies = [
   productVersion: "A Fixed-Term Fund (FTF) is a regulated fund that offers single-name, maturity matched exposures to investment grade sovereign, financial and corporate sector issuers. FTFs provide opportunities for increased returns on cash investments compared to traditional money market products without compromising the goal of risk reduction. FTFs are funds that exist for a fixed term and automatically self-liquidate at the end of that term. They can also be extendable if desired.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705289163/category-1-logo-3_dqgzda.png",
   keywords: ["Treasury"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Icd Treasury First",
   description: "N/A",
@@ -838,8 +833,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189208/category-1-logo-4_lgkonw.png",
   keywords: ["Icd Treasury First"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Morgan Money",
   description: "N/A",
@@ -856,8 +851,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705466441/category-1-logo-5_cjixgw.png",
   keywords: ["Morgan Money"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Bid Fx",
   description: "N/A",
@@ -874,8 +869,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704952598/category-1-logo-6_ufhikd.png",
   keywords: ["Bid Fx"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Milltech Fx",
   description: "N/A",
@@ -892,8 +887,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705289003/category-1-logo-7_rym7ey.png",
   keywords: ["Milltech Fx"],
-  live:true
-},
+  live: true
+ },
  {
   name: "B2C2",
   description: "N/A",
@@ -910,8 +905,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704691851/category-1-logo-8_qbcrda.png",
   keywords: ["B2C2"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Calastone",
   description: "N/A",
@@ -928,8 +923,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704952907/category-1-logo-9_aqe1ki.png",
   keywords: ["Calastone"],
-  live:true
-},
+  live: true
+ },
  {
   name: "360t",
   description: "N/A",
@@ -944,10 +939,10 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704952830/category-1-logo-10_k3ay1u.png",
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705551860/360T-logo_k7rwlh.png",
   keywords: ["360t"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Alpha",
   description: "N/A",
@@ -964,8 +959,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188729/category-1-logo-11_tv3z9r.png",
   keywords: ["Alpha"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Bloomberg",
   description: "N/A",
@@ -982,8 +977,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704958189/category-2-logo-1_pe44li.png",
   keywords: ["Bloomberg"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Refintiv",
   description: "N/A",
@@ -1000,8 +995,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704958190/category-2-logo-2_hnt7ky.png",
   keywords: ["Refintiv"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Moodys",
   description: "N/A",
@@ -1018,8 +1013,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704958191/category-2-logo-3_nu2edj.png",
   keywords: ["Moodys"],
-  live:true
-},
+  live: true
+ },
  {
   name: "S&P Global",
   description: "N/A",
@@ -1036,8 +1031,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704958186/category-2-logo-4_ntpaez.png",
   keywords: ["S&P Global"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Scope",
   description: "N/A",
@@ -1054,8 +1049,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704958187/category-2-logo-5_fyfpqn.png",
   keywords: ["Scope"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Kantox",
   description: "N/A",
@@ -1072,8 +1067,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704958775/category-3-logo-1_psjxse.png",
   keywords: ["Kantox"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Fireapps",
   description: "N/A",
@@ -1090,8 +1085,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188729/category-3-logo-2_muhznp.png",
   keywords: ["Fireapps"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Yseulis",
   description: "N/A",
@@ -1108,8 +1103,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188729/category-3-logo-3_thlusy.png",
   keywords: ["Yseulis"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Defthedge",
   description: "N/A",
@@ -1126,8 +1121,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188730/category-3-logo-4_em0g6r.png",
   keywords: ["Defthedge"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Atlas Fx",
   description: "N/A",
@@ -1144,8 +1139,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188731/category-3-logo-5_rznyga.png",
   keywords: ["Atlas Fx"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Nx Partners",
   description: "NX Partners is your partner to design your future treasury strategy. Our experts help you craft your future banking landscape, identify your system requirements and potential process changes. Our aim is to ensure a successful outcome. We guide you through the change process. Our experience has taught us to spot pitfalls early on and identify and remedy change management challenges.",
@@ -1159,11 +1154,11 @@ const companies = [
   companyCategories: [4],
   companySubcategories: [],
   productName: "Consulting/Advisory Services",
-  productVersion: "NX Partners is a strategic and financial business partner, helping clients to achieve their strategic growth objectives.NX Partners is also a leading provider of treasury and liquidity consulting services. Our experts help strengthen the treasurers grip on liquidity and working capital.We help you design your future treasury strategy and banking landscape. We work with your treasury team to ensure they have the skills and competencies to deliver against your strategy. At the same time, we identify your system requirements and suggest potential process changes.Our services encompass implementing TMS solutions, centralizing enterprise-wide payments, and enhancing visibility into cash, liquidity, and financial risk.We apply a proven methodology. We start by listening to our client to understand their needs and priorities. We challenge to make sure we deliver the most suited solution. Our clients are involved from day one and coached by our consultants.All our consultants have a background in treasury and are trained and certified by Kyriba. Our project managers have started at NX as functional consultants and have worked their way up. Our implementations are a team effort under the guidance and supervision of our senior people.",
+  productVersion: "NX Partners is a strategic and financial business partner, helping clients to achieve their strategic growth objectives.nNX Partners is also a leading provider of treasury and liquidity consulting services. Our experts help strengthen the treasurer's grip on liquidity and working capital.nWe help you design your future treasury strategy and banking landscape. We work with your treasury team to ensure they have the skills and competencies to deliver against your strategy. At the same time, we identify your system requirements and suggest potential process changes.nOur services encompass implementing TMS solutions, centralizing enterprise-wide payments, and enhancing visibility into cash, liquidity, and financial risk.nWe apply a proven methodology. We start by listening to our client to understand their needs and priorities. We challenge to make sure we deliver the most suited solution. Our clients are involved from day one and coached by our consultants.nAll our consultants have a background in treasury and are trained and certified by Kyriba. Our project managers have started at NX as functional consultants and have worked their way up. Our implementations are a team effort under the guidance and supervision of our senior people.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959172/category-4-logo-1_j2mhvw.png",
   keywords: ["Nx Partners"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Deloitte",
   description: "N/A",
@@ -1180,8 +1175,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959174/category-4-logo-2_pitosc.png",
   keywords: ["Deloitte"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Azzana",
   description: "N/A",
@@ -1198,11 +1193,11 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959164/category-4-logo-3_xri7ff.png",
   keywords: ["Azzana"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Utsit",
-  description: "UTSIT is a consultancy company, fully owned by UTSIT collaborators, founded in 2002 to bring to MNCs corporate treasurers a combined IT and business expertise. Our mission is to support Corporate Treasurers during all steps of IT projects in treasury and payments: audit & benchmark, design target model, RFI/RFP, solution setup, roll-out and maintenance and PMO. UTSIT consultants are recognized for their expertise and soft skills to deliver projects in close relationship with Treasury and IT teams. For last 20 years UTSIT has developed strong relationships with Treasury and Payments vendors. This organization allows consultants to be certified or experienced experts with main solutions. UTSIT also works for banks, software vendors and SWIFT.Acting on behalf of biggest Corporates, UTSIT did take a crucial part in SWIFT for Corporate creation and take-off. Since this pioneer time, UTSIT kept a strong and friendly relationship with SWIFT and banks all over the world. In 2017, UTSIT established in Singapore to lead treasury projects for large corporates across the region.   Since 2004 UTSIT is founder and co-organizer of UNIVERSWIFTNET, a yearly basis forum dedicated to corporate-to-bank relationship gathering 1,200 attendees from corporate treasuries, banks and vendors to dialogue about trends and innovation.",
+  description: "UTSIT is a consultancy company, fully owned by UTSIT collaborators, founded in 2002 to bring to MNC's corporate treasurers a combined IT and business expertise. Our mission is to support Corporate Treasurers during all steps of IT projects in treasury and payments: audit & benchmark, design target model, RFI/RFP, solution setup, roll-out and maintenance and PMO.n nUTSIT consultants are recognized for their expertise and soft skills to deliver projects in close relationship with Treasury and IT teams. For last 20 years UTSIT has developed strong relationships with Treasury and Payments vendors. This organization allows consultants to be certified or experienced experts with main solutions.n nUTSIT also works for banks, software vendors and SWIFT.nActing on behalf of biggest Corporates, UTSIT did take a crucial part in SWIFT for Corporate creation and take-off. Since this pioneer time, UTSIT kept a strong and friendly relationship with SWIFT and banks all over the world.n nIn 2017, UTSIT established in Singapore to lead treasury projects for large corporates across the region.  n nSince 2004 UTSIT is founder and co-organizer of UNIVERSWIFTNET, a yearly basis forum dedicated to corporate-to-bank relationship gathering 1,200 attendees from corporate treasuries, banks and vendors to dialogue about trends and innovation.",
   creationDate: "2002",
   turnover: 0,
   employees: "N/A",
@@ -1216,8 +1211,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959165/category-4-logo-4_hbvdof.png",
   keywords: ["Utsit"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Airpaje",
   description: "N/A",
@@ -1234,8 +1229,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959166/category-4-logo-5_mrik29.png",
   keywords: ["Airpaje"],
-  live:true
-},
+  live: true
+ },
  {
   name: "New Bridge",
   description: "N/A",
@@ -1252,8 +1247,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959168/category-4-logo-6_rohmp3.png",
   keywords: ["New Bridge"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Zanders",
   description: "N/A",
@@ -1270,8 +1265,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188732/category-4-logo-7_mod4e5.png",
   keywords: ["Zanders"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Intensum",
   description: "N/A",
@@ -1288,8 +1283,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959171/category-4-logo-8_ztfjfd.jpg",
   keywords: ["Intensum"],
-  live:true
-},
+  live: true
+ },
  {
   name: "O Finance",
   description: "N/A",
@@ -1306,8 +1301,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188734/category-4-logo-9_ropj0m.png",
   keywords: ["O Finance"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Category-5-Logo-1",
   description: "N/A",
@@ -1324,8 +1319,8 @@ const companies = [
   productVersion: "N/A",
   logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650688/category-5-logo-1_lrcal7.png",
   keywords: ["Category-5-Logo-1"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Monex",
   description: "N/A",
@@ -1342,8 +1337,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188735/category-5-logo-2_qzl2rw.png",
   keywords: ["Monex"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Stone X",
   description: "N/A",
@@ -1360,8 +1355,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959874/category-5-logo-3_qupxaq.png",
   keywords: ["Stone X"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Ebury",
   description: "N/A",
@@ -1378,8 +1373,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959864/category-5-logo-4_g17tkf.png",
   keywords: ["Ebury"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Key-Business",
   description: "N/A",
@@ -1396,8 +1391,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959865/category-5-logo-5_fwsnd8.png",
   keywords: ["Key-Business"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Sis Id",
   description: "N/A",
@@ -1414,8 +1409,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959867/category-5-logo-6_duvusc.png",
   keywords: ["Sis Id"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Conformitee",
   description: "N/A",
@@ -1432,8 +1427,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959868/category-5-logo-7_xlcxzy.png",
   keywords: ["Conformitee"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Redbrige",
   description: "N/A",
@@ -1450,8 +1445,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959870/category-5-logo-8_ft8ruq.png",
   keywords: ["Redbrige"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Swift",
   description: "N/A",
@@ -1468,8 +1463,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959871/category-5-logo-9_p8jabj.png",
   keywords: ["Swift"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Ihub",
   description: "N/A",
@@ -1486,8 +1481,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182090/category-5-logo-10_tz6rwa.png",
   keywords: ["Ihub"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Cinfoni",
   description: "N/A",
@@ -1504,8 +1499,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704959872/category-5-logo-11_eon1u0.png",
   keywords: ["Cinfoni"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Treasury Delta",
   description: "N/A",
@@ -1522,8 +1517,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188736/category-5-logo-12_ebmf1l.png",
   keywords: ["Treasury Delta"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Coprocess",
   description: "N/A",
@@ -1540,8 +1535,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182090/category-5-logo-13_ckrcft.png",
   keywords: ["Coprocess"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Trinity TM",
   description: "N/A",
@@ -1558,8 +1553,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188737/category-6-logo-1_szyngw.png",
   keywords: ["Trinity TM"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Excel",
   description: "N/A",
@@ -1576,8 +1571,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960429/category-6-logo-2_fjnper.png",
   keywords: ["Excel"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Titan Treasury",
   description: "N/A",
@@ -1594,8 +1589,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188738/category-6-logo-3_b21ttg.png",
   keywords: ["Titan Treasury"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Treasury Press",
   description: "N/A",
@@ -1612,8 +1607,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960431/category-6-logo-4_qi0gkb.png",
   keywords: ["Treasury Press"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Tipco",
   description: "N/A",
@@ -1630,11 +1625,11 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182090/category-6-logo-5_yl6chb.png",
   keywords: ["Tipco"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Ion",
-  description: "ION was founded in 1998, and over the course of the past 20+ years it has become one of the worlds largest financial technology companies. ION is organized in five divisions: Treasury and Commodities (serving corporations, central banks, and financial institutions in treasury management and commodity management), Markets (serving the worlds leading capital markets companies), Analytics (providing data and analytics on capital raising, capital formation and M&A to capital markets, corporations and advisors through our Dealogic and Acuris brands) and Core Banking. ION Treasury is one of the largest providers of treasury and risk management solutions in the world. Its solutions are designed to meet the needs of organizations with varying complexities and at different stages of technology adoption. With over 1,100 customers in more than 35 countries around the world, ION Treasury is also a powerful community shaping the global treasury landscape. ION Treasury dedicates over 50% of its employee base to product innovation. Its financial strength, breadth of products, and commitment to continuous innovation enable it to deliver on treasurys diverse and changing technology needs. ION Treasurys portfolio of leading treasury products includes City Financials, IT2, ITS, Openlink, Reval, Treasura, and Wallstreet Suite as well as innovative tools and services that span across the entire solution set.",
+  description: "ION was founded in 1998, and over the course of the past 20+ years it has become one of the world's largest financial technology companies. ION is organized in five divisions: Treasury and Commodities (serving corporations, central banks, and financial institutions in treasury management and commodity management), Markets (serving the world's leading capital markets companies), Analytics (providing data and analytics on capital raising, capital formation and M&A to capital markets, corporations and advisors through our Dealogic and Acuris brands) and Core Banking. ION Treasury is one of the largest providers of treasury and risk management solutions in the world. Its solutions are designed to meet the needs of organizations with varying complexities and at different stages of technology adoption. With over 1,100 customers in more than 35 countries around the world, ION Treasury is also a powerful community shaping the global treasury landscape. ION Treasury dedicates over 50% of its employee base to product innovation. Its financial strength, breadth of products, and commitment to continuous innovation enable it to deliver on treasury's diverse and changing technology needs. ION Treasury's portfolio of leading treasury products includes City Financials, IT2, ITS, Openlink, Reval, Treasura, and Wallstreet Suite as well as innovative tools and services that span across the entire solution set.",
   creationDate: "1998",
   turnover: 0,
   employees: "N/A",
@@ -1645,11 +1640,11 @@ const companies = [
   companyCategories: [6],
   companySubcategories: [1,2,3,4,5,7,8,10,11,12,13,14,15,16,17,18,19,20],
   productName: "Wallstreet Suite, Reval, IT2, Openlink, ITS, City Financials, Treasura",
-  productVersion: "Wallstreet Suite: Wallstreet Suite is an enterprise treasury, risk management and payment hub solution designed for the unique needs of the worlds largest and most complex organizations. It is a highly configurable and scalable solution, offering multi-entity support and current information across all asset classes. It also provides advanced analytics for business decision[1]making and key performance metrics measurement. Its best suited for large multinational organizations with complex processes and specific needs, around high volume capabilities, extensive functional coverage and high configurability Reval: Reval is an innovative enterprise treasury and risk management SaaS solution, enabling clients to be up and running quickly and always be on the current version. Reval is a highly scalable, comprehensive, and integrated solution that helps companies better manage cash, liquidity and financial risk, and account for and report on complex financial instruments and hedging activities. Reval extends its services through a vast partner community to deliver a seamless user experience out of the box. Its best suited for companies preferring to always be on the latest version of the software, have it managed by the provider, and be able to seamlessly upgrade without an implementation project. IT2: IT2 is highly configurable, offering a solution that can scale and meet diverse treasury requirements. Built for the comprehensive needs of international treasury operations in need of superior cash management and funding capabilities, IT2 provides an integrated framework for treasury policies, processes, and performance. IT2s state of the art, flexible integration engine can easily integrate into third-party systems. Its best suited for companies seeking a fully integrated treasury and risk management solution where they can define and control their workflows with integrated process maps, workbenches, and dashboards. Openlink: Openlink is a comprehensive enterprise treasury and risk management solution designed for banks, asset managers and large commodity-intensive corporations that need extensive asset class coverage to support sophisticated portfolios. Openlink provides holistic enterprise risk capabilities and advanced analytics across both physical and financial assets, as well as insights on cash and liquidity, all of which support greater market understanding and timely, evidence-based decision-making. Its best suited for central and regional banks, asset managers, Large multi-national organizations with a commodity intensive supply chain or expansive volumes, and risk management needs. ITS: ITS is a treasury and risk management solution for companies based in Central Europe. With broad and deep capabilities specialized to the region across cash, payments, risk, and accounting, ITS meets the needs of treasury organizations from basic to complex. It is available as an on-premises or cloud solution and implemented by our regional professional services team, which has successfully partnered with hundreds of corporations to deploy the solution throughout the region. Its best suited for companies headquartered in Central Europe needing regional treasury and risk specialization. City Financials: City Financials is a configurable treasury and risk management solution designed to provide efficiency around standard treasury practices and is implemented quickly and delivered securely in the cloud. It is a cost-effective solution for multinational corporations with centralized treasuries in need of a strong, standardized control environment. City Financials requires minimal IT support, incorporating pre-configured workflows. It provides a simple logical user experience, easily managed directly within the treasury operation itself. Its best suited for companies seeking strong controls and standard workflows. Treasura: Treasura is a cash management SaaS solution that is cost-effective, easy to implement and use, and is built on industry best practices. Treasura is ideal for companies ready to be liberated from in-house/legacy systems, bank portals, or spreadsheets. It streamlines internal processes, improves cash visibility and financial controls, and helps companies improve financing and working capital decisions. Its best suited for companies in North America who are ready to move off spreadsheets and individual bank portals and consolidate and automate cash and accounting activity through a single web-based solution which is fast and easy to set up.",
+  productVersion: "Wallstreet Suite: Wallstreet Suite is an enterprise treasury, risk management and payment hub solution designed for the unique needs of the world's largest and most complex organizations. It is a highly configurable and scalable solution, offering multi-entity support and current information across all asset classes. It also provides advanced analytics for business decision[1]making and key performance metrics measurement. It's best suited for large multinational organizations with complex processes and specific needs, around high volume capabilities, extensive functional coverage and high configurabilityn nReval: Reval is an innovative enterprise treasury and risk management SaaS solution, enabling clients to be up and running quickly and always be on the current version. Reval is a highly scalable, comprehensive, and integrated solution that helps companies better manage cash, liquidity and financial risk, and account for and report on complex financial instruments and hedging activities. Reval extends its services through a vast partner community to deliver a seamless user experience out of the box. It's best suited for companies preferring to always be on the latest version of the software, have it managed by the provider, and be able to seamlessly upgrade without an implementation project.n nIT2: IT2 is highly configurable, offering a solution that can scale and meet diverse treasury requirements. Built for the comprehensive needs of international treasury operations in need of superior cash management and funding capabilities, IT2 provides an integrated framework for treasury policies, processes, and performance. IT2's state of the art, flexible integration engine can easily integrate into third-party systems. It's best suited for companies seeking a fully integrated treasury and risk management solution where they can define and control their workflows with integrated process maps, workbenches, and dashboards.n nOpenlink: Openlink is a comprehensive enterprise treasury and risk management solution designed for banks, asset managers and large commodity-intensive corporations that need extensive asset class coverage to support sophisticated portfolios. Openlink provides holistic enterprise risk capabilities and advanced analytics across both physical and financial assets, as well as insights on cash and liquidity, all of which support greater market understanding and timely, evidence-based decision-making. It's best suited for central and regional banks, asset managers, Large multi-national organizations with a commodity intensive supply chain or expansive volumes, and risk management needs.n nITS: ITS is a treasury and risk management solution for companies based in Central Europe. With broad and deep capabilities specialized to the region across cash, payments, risk, and accounting, ITS meets the needs of treasury organizations from basic to complex. It is available as an on-premises or cloud solution and implemented by our regional professional services team, which has successfully partnered with hundreds of corporations to deploy the solution throughout the region. It's best suited for companies headquartered in Central Europe needing regional treasury and risk specialization.n nCity Financials: City Financials is a configurable treasury and risk management solution designed to provide efficiency around standard treasury practices and is implemented quickly and delivered securely in the cloud. It is a cost-effective solution for multinational corporations with centralized treasuries in need of a strong, standardized control environment. City Financials requires minimal IT support, incorporating pre-configured workflows. It provides a simple logical user experience, easily managed directly within the treasury operation itself. It's best suited for companies seeking strong controls and standard workflows.n nTreasura: Treasura is a cash management SaaS solution that is cost-effective, easy to implement and use, and is built on industry best practices. Treasura is ideal for companies ready to be liberated from in-house/legacy systems, bank portals, or spreadsheets. It streamlines internal processes, improves cash visibility and financial controls, and helps companies improve financing and working capital decisions. It's best suited for companies in North America who are ready to move off spreadsheets and individual bank portals and consolidate and automate cash and accounting activity through a single web-based solution which is fast and easy to set up.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705290246/category-6-logo-6_zdu4k4.png",
   keywords: ["Ion"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Serrala",
   description: "N/A",
@@ -1666,8 +1661,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960419/category-6-logo-7_w6dgeg.png",
   keywords: ["Serrala"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Diapason",
   description: "N/A",
@@ -1684,8 +1679,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188747/category-6-logo-8_yealgy.png",
   keywords: ["Diapason"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Fis",
   description: "N/A",
@@ -1702,8 +1697,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705290100/category-6-logo-9_uxiakv.png",
   keywords: ["Fis"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Datalog",
   description: "N/A",
@@ -1720,8 +1715,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960423/category-6-logo-10_vsa895.png",
   keywords: ["Datalog"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Sap",
   description: "N/A",
@@ -1738,11 +1733,11 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960424/category-6-logo-11_eua6fk.png",
   keywords: ["Sap"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Finastra",
-  description: "Finastra is a global provider of financial software applications and marketplaces, and launched the leading open platform for innovation, FusionFabric.cloud, in 2017. It serves institutions of all sizes, providing award-winning software solutions and services across Lending, Payments, Treasury & Capital Markets and Universal Banking (Retail, Digital and Commercial Banking) for banks to support direct banking relationships and grow through indirect channels, such as embedded finance and Banking as a Service. Its pioneering approach and commitment to open finance and collaboration is why it is trusted by over 8,000 institutions, including 45 of the worlds top 50 banks. For more information, visit finastra.com.",
+  description: "Finastra is a global provider of financial software applications and marketplaces, and launched the leading open platform for innovation, FusionFabric.cloud, in 2017. It serves institutions of all sizes, providing award-winning software solutions and services across Lending, Payments, Treasury & Capital Markets and Universal Banking (Retail, Digital and Commercial Banking) for banks to support direct banking relationships and grow through indirect channels, such as embedded finance and Banking as a Service. Its pioneering approach and commitment to open finance and collaboration is why it is trusted by over 8,000 institutions, including 45 of the world's top 50 banks. For more information, visit finastra.com.",
   creationDate: "1995",
   turnover: 0,
   employees: "N/A",
@@ -1753,11 +1748,11 @@ const companies = [
   companyCategories: [6],
   companySubcategories: [],
   productName: "SaaS solutions",
-  productVersion: "Finastra covers all your market infrastructure connectivity, payment gateway and financial messaging needs. We offer a comprehensive suite of solutions that help solve specific industry challenges. It starts with our flagship SaaS-delivered solution, Finastra Total Messaging, which allows for advanced straight-through processing, message transformation, enrichment, workflow and routing, as well as Swift and non-Swift market infrastructure connectivity (e.g., SIC, euroSIC, SECOM, Fedwire, CHIPS, Bacs and others). Our sanctions screening solution, Finastra Total Screening—which operates seamlessly alongside Total Messaging and our SWIFT connectivity service—delivers fewer false positives and easier compliance. Finastra continues to invest in connectivity to additional market infrastructures and payment rails, increasing the value to our customers. This includes real-time payment services, (e.g., TCH Real Time, ECB TIPS, EBA RT1, FedNow, SIC Instant Payments, UK NPA); payment service providers (e.g., Mastercard® Cross-Border Services, Thunes); and new market infrastructures extending our geographical footprint (e.g., South Africa, Thailand). Finastras fraud prevention solution powered by NetGuardians is tailored for Finastras Swift Service Bureau customers and pre-integrated with our Total Messaging solution, providing financial institutions with behavioral monitoring of payment messages to identify and stop fraud in real-time.",
+  productVersion: "Finastra covers all your market infrastructure connectivity, payment gateway and financial messaging needs. We offer a comprehensive suite of solutions that help solve specific industry challenges. It starts with our flagship SaaS-delivered solution, Finastra Total Messaging, which allows for advanced straight-through processing, message transformation, enrichment, workflow and routing, as well as Swift and non-Swift market infrastructure connectivity (e.g., SIC, euroSIC, SECOM, Fedwire, CHIPS, Bacs and others). Our sanctions screening solution, Finastra Total Screening—which operates seamlessly alongside Total Messaging and our SWIFT connectivity service—delivers fewer false positives and easier compliance. Finastra continues to invest in connectivity to additional market infrastructures and payment rails, increasing the value to our customers. This includes real-time payment services, (e.g., TCH Real Time, ECB TIPS, EBA RT1, FedNow, SIC Instant Payments, UK NPA); payment service providers (e.g., Mastercard® Cross-Border Services, Thunes); and new market infrastructures extending our geographical footprint (e.g., South Africa, Thailand). Finastra's fraud prevention solution powered by NetGuardians is tailored for Finastra's Swift Service Bureau customers and pre-integrated with our Total Messaging solution, providing financial institutions with behavioral monitoring of payment messages to identify and stop fraud in real-time.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182090/category-6-logo-12_loif3v.png",
   keywords: ["Finastra"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Coupa",
   description: "N/A",
@@ -1774,8 +1769,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960426/category-6-logo-13_yqw3ig.png",
   keywords: ["Coupa"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Gtreasury",
   description: "N/A",
@@ -1792,8 +1787,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705466464/category-6-logo-14_fggzsj.png",
   keywords: ["Gtreasury"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Kyriba",
   description: "N/A",
@@ -1810,8 +1805,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705289783/category-6-logo-15_i120ya.png",
   keywords: ["Kyriba"],
-  live:true
-},
+  live: true
+ },
  {
   name: "A352",
   description: "N/A",
@@ -1828,8 +1823,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188748/category-6-logo-16_kzibxz.png",
   keywords: ["A352"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Salmon Software",
   description: "N/A",
@@ -1846,8 +1841,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182091/category-6-logo-17_lefv4g.png",
   keywords: ["Salmon Software"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Sap",
   description: "N/A",
@@ -1864,8 +1859,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960707/category-7-logo-1_ceyvd7.png",
   keywords: ["Sap"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Microsoft Dynamics",
   description: "N/A",
@@ -1882,8 +1877,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182091/category-7-logo-2_fsjztu.png",
   keywords: ["Microsoft Dynamics"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Infor",
   description: "N/A",
@@ -1900,8 +1895,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188749/category-7-logo-3_j6ztjk.png",
   keywords: ["Infor"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Oracle",
   description: "N/A",
@@ -1918,8 +1913,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960709/category-7-logo-4_uf2l6a.png",
   keywords: ["Oracle"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Odoo",
   description: "N/A",
@@ -1936,8 +1931,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960704/category-7-logo-5_oz9hgk.png",
   keywords: ["Odoo"],
-  live:true
-},
+  live: true
+ },
  {
   name: "People Soft",
   description: "N/A",
@@ -1954,8 +1949,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704960706/category-7-logo-6_ue7m7y.png",
   keywords: ["People Soft"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Sage 300",
   description: "N/A",
@@ -1972,10 +1967,10 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705466471/category-7-logo-7_g0fa8s.png",
   keywords: ["Sage 300"],
-  live:true
-},
+  live: true
+ },
  {
-  name: "Category-7-Logo-8",
+  name: "TreaSolution Inc",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -1984,16 +1979,16 @@ const companies = [
   userId: 69,
   companyWebsite: "N/A",
   companyOffices: [],
-  companyCategories: [7],
+  companyCategories: [8],
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650633/category-7-logo-8_kpxhtq.png",
-  keywords: ["Category-7-Logo-8"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189218/category-8-logo-1_zgi7j1.png",
+  keywords: ["TreaSolution Inc"],
+  live: true
+ },
  {
-  name: "TreaSolution Inc",
+  name: "Centralis",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2006,12 +2001,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189218/category-8-logo-1_zgi7j1.png",
-  keywords: ["TreaSolution Inc"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182094/category-8-logo-2_ehqqkz.png",
+  keywords: ["Centralis"],
+  live: true
+ },
  {
-  name: "Centralis",
+  name: "Gresham",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2024,12 +2019,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182094/category-8-logo-2_ehqqkz.png",
-  keywords: ["Centralis"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188751/category-8-logo-3_jsjkrt.png",
+  keywords: ["Gresham"],
+  live: true
+ },
  {
-  name: "Gresham",
+  name: "Ambriva",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2042,12 +2037,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188751/category-8-logo-3_jsjkrt.png",
-  keywords: ["Gresham"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182094/category-8-logo-4_xfwrnu.png",
+  keywords: ["Ambriva"],
+  live: true
+ },
  {
-  name: "Ambriva",
+  name: "Zanders",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2060,12 +2055,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182094/category-8-logo-4_xfwrnu.png",
-  keywords: ["Ambriva"],
-  live:true
-},
+  logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650637/category-8-logo-5_mtt2iv.png",
+  keywords: ["Zanders"],
+  live: true
+ },
  {
-  name: "Zanders",
+  name: "O Finance",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2078,12 +2073,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650637/category-8-logo-5_mtt2iv.png",
-  keywords: ["Zanders"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188752/category-8-logo-6_gmrhpx.png",
+  keywords: ["O Finance"],
+  live: true
+ },
  {
-  name: "O Finance",
+  name: "Simple Treasury",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2096,12 +2091,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188752/category-8-logo-6_gmrhpx.png",
-  keywords: ["O Finance"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188753/category-8-logo-7_hauawd.png",
+  keywords: ["Simple Treasury"],
+  live: true
+ },
  {
-  name: "Simple Treasury",
+  name: "Qlik View",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2110,16 +2105,16 @@ const companies = [
   userId: 76,
   companyWebsite: "N/A",
   companyOffices: [],
-  companyCategories: [8],
+  companyCategories: [9],
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188753/category-8-logo-7_hauawd.png",
-  keywords: ["Simple Treasury"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961112/category-9-logo-1_cghsjx.png",
+  keywords: ["Qlik View"],
+  live: true
+ },
  {
-  name: "Qlik View",
+  name: "Intix",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2132,12 +2127,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961112/category-9-logo-1_cghsjx.png",
-  keywords: ["Qlik View"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961114/category-9-logo-2_pze1rt.jpg",
+  keywords: ["Intix"],
+  live: true
+ },
  {
-  name: "Intix",
+  name: "Fm",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2150,12 +2145,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961114/category-9-logo-2_pze1rt.jpg",
-  keywords: ["Intix"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961116/category-9-logo-3_mhnjjo.png",
+  keywords: ["Fm"],
+  live: true
+ },
  {
-  name: "Fm",
+  name: "Fennech",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2168,12 +2163,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961116/category-9-logo-3_mhnjjo.png",
-  keywords: ["Fm"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705291228/category-9-logo-4_cjfjwd.png",
+  keywords: ["Fennech"],
+  live: true
+ },
  {
-  name: "Fennech",
+  name: "Microsoft",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2186,12 +2181,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705291228/category-9-logo-4_cjfjwd.png",
-  keywords: ["Fennech"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188754/category-9-logo-5_pisk50.png",
+  keywords: ["Microsoft"],
+  live: true
+ },
  {
-  name: "Microsoft",
+  name: "Link",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2200,16 +2195,16 @@ const companies = [
   userId: 81,
   companyWebsite: "N/A",
   companyOffices: [],
-  companyCategories: [9],
+  companyCategories: [10],
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188754/category-9-logo-5_pisk50.png",
-  keywords: ["Microsoft"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705172141/category-10-logo-1_ovxni0.png",
+  keywords: ["Link"],
+  live: true
+ },
  {
-  name: "Link",
+  name: "Prime Revenue",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2222,12 +2217,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705172141/category-10-logo-1_ovxni0.png",
-  keywords: ["Link"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961331/category-10-logo-2_huxhob.png",
+  keywords: ["Prime Revenue"],
+  live: true
+ },
  {
-  name: "Prime Revenue",
+  name: "Tipalti",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2240,12 +2235,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961331/category-10-logo-2_huxhob.png",
-  keywords: ["Prime Revenue"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188755/category-10-logo-3_uompbd.png",
+  keywords: ["Tipalti"],
+  live: true
+ },
  {
-  name: "Tipalti",
+  name: "Calculum",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2258,12 +2253,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188755/category-10-logo-3_uompbd.png",
-  keywords: ["Tipalti"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961333/category-10-logo-4_al7uej.png",
+  keywords: ["Calculum"],
+  live: true
+ },
  {
-  name: "Calculum",
+  name: "Eliant",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2276,12 +2271,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961333/category-10-logo-4_al7uej.png",
-  keywords: ["Calculum"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182095/category-10-logo-5_vb96ve.png",
+  keywords: ["Eliant"],
+  live: true
+ },
  {
-  name: "Eliant",
+  name: "Marco Polo Network",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2294,12 +2289,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182095/category-10-logo-5_vb96ve.png",
-  keywords: ["Eliant"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182096/category-10-logo-6_x9bwys.png",
+  keywords: ["Marco Polo Network"],
+  live: true
+ },
  {
-  name: "Marco Polo Network",
+  name: "C2fo",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2312,12 +2307,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182096/category-10-logo-6_x9bwys.png",
-  keywords: ["Marco Polo Network"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961325/category-10-logo-7_wiamja.png",
+  keywords: ["C2fo"],
+  live: true
+ },
  {
-  name: "C2fo",
+  name: "Taulia",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2330,12 +2325,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961325/category-10-logo-7_wiamja.png",
-  keywords: ["C2fo"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961327/category-10-logo-8_cd0zap.webp",
+  keywords: ["Taulia"],
+  live: true
+ },
  {
-  name: "Taulia",
+  name: "Cashlab",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2344,16 +2339,16 @@ const companies = [
   userId: 89,
   companyWebsite: "N/A",
   companyOffices: [],
-  companyCategories: [10],
+  companyCategories: [11],
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961327/category-10-logo-8_cd0zap.webp",
-  keywords: ["Taulia"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961329/category-11-logo-1_svzike.png",
+  keywords: ["Cashlab"],
+  live: true
+ },
  {
-  name: "Cashlab",
+  name: "Aividens",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2366,12 +2361,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961329/category-11-logo-1_svzike.png",
-  keywords: ["Cashlab"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188755/category-11-logo-2_mtab9d.png",
+  keywords: ["Aividens"],
+  live: true
+ },
  {
-  name: "Aividens",
+  name: "Tis",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2384,12 +2379,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188755/category-11-logo-2_mtab9d.png",
-  keywords: ["Aividens"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705291056/category-11-logo-3_fte8sc.png",
+  keywords: ["Tis"],
+  live: true
+ },
  {
-  name: "Tis",
+  name: "Cash Analytics",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2402,12 +2397,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705291056/category-11-logo-3_fte8sc.png",
-  keywords: ["Tis"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188791/category-11-logo-4_hsdmke.png",
+  keywords: ["Cash Analytics"],
+  live: true
+ },
  {
-  name: "Cash Analytics",
+  name: "Tableau",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2420,12 +2415,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705188791/category-11-logo-4_hsdmke.png",
-  keywords: ["Cash Analytics"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189199/category-11-logo-5_mtrppq.png",
+  keywords: ["Tableau"],
+  live: true
+ },
  {
-  name: "Tableau",
+  name: "Treamo",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2438,12 +2433,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189199/category-11-logo-5_mtrppq.png",
-  keywords: ["Tableau"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189199/category-11-logo-6_em91x7.png",
+  keywords: ["Treamo"],
+  live: true
+ },
  {
-  name: "Treamo",
+  name: "Exalog",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2452,16 +2447,16 @@ const companies = [
   userId: 95,
   companyWebsite: "N/A",
   companyOffices: [],
-  companyCategories: [11],
+  companyCategories: [12],
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189199/category-11-logo-6_em91x7.png",
-  keywords: ["Treamo"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961892/category-12-logo-1_yuoae5.gif",
+  keywords: ["Exalog"],
+  live: true
+ },
  {
-  name: "Exalog",
+  name: "Cegid",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2474,12 +2469,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961892/category-12-logo-1_yuoae5.gif",
-  keywords: ["Exalog"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961888/category-12-logo-2_xyu8vy.png",
+  keywords: ["Cegid"],
+  live: true
+ },
  {
-  name: "Cegid",
+  name: "Traxpay",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2492,12 +2487,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961888/category-12-logo-2_xyu8vy.png",
-  keywords: ["Cegid"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962093/category-12-logo-3_pitegs.png",
+  keywords: ["Traxpay"],
+  live: true
+ },
  {
-  name: "Traxpay",
+  name: "Coconet",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2510,12 +2505,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962093/category-12-logo-3_pitegs.png",
-  keywords: ["Traxpay"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961889/category-12-logo-4_vf5epj.png",
+  keywords: ["Coconet"],
+  live: true
+ },
  {
-  name: "Coconet",
+  name: "Access Pay",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2524,16 +2519,16 @@ const companies = [
   userId: 99,
   companyWebsite: "N/A",
   companyOffices: [],
-  companyCategories: [12],
+  companyCategories: [13],
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704961889/category-12-logo-4_vf5epj.png",
-  keywords: ["Coconet"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189200/category-13-logo-1_psj62p.jpg",
+  keywords: ["Access Pay"],
+  live: true
+ },
  {
-  name: "Access Pay",
+  name: "Dixio",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2546,12 +2541,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189200/category-13-logo-1_psj62p.jpg",
-  keywords: ["Access Pay"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189201/category-13-logo-2_az0te9.png",
+  keywords: ["Dixio"],
+  live: true
+ },
  {
-  name: "Dixio",
+  name: "Cobase",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2564,12 +2559,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189201/category-13-logo-2_az0te9.png",
-  keywords: ["Dixio"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962222/category-13-logo-3_cfloqc.png",
+  keywords: ["Cobase"],
+  live: true
+ },
  {
-  name: "Cobase",
+  name: "Fides",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2582,12 +2577,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962222/category-13-logo-3_cfloqc.png",
-  keywords: ["Cobase"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962224/category-13-logo-4_tlnv2p.png",
+  keywords: ["Fides"],
+  live: true
+ },
  {
-  name: "Fides",
+  name: "Omikron",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2600,12 +2595,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962224/category-13-logo-4_tlnv2p.png",
-  keywords: ["Fides"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189203/category-13-logo-5_wrk0tn.png",
+  keywords: ["Omikron"],
+  live: true
+ },
  {
-  name: "Omikron",
+  name: "Finlync",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2618,46 +2613,28 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189203/category-13-logo-5_wrk0tn.png",
-  keywords: ["Omikron"],
-  live:true
-},
- {
-  name: "Finlync",
-  description: "N/A",
-  creationDate: "N/A",
-  turnover: 0,
-  employees: "N/A",
-  location: "N/A",
-  userId: 105,
-  companyWebsite: "N/A",
-  companyOffices: [],
-  companyCategories: [13],
-  companySubcategories: [],
-  productName: "N/A",
-  productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962226/category-13-logo-6_v7mwe0.png",
   keywords: ["Finlync"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Trustpair",
-  description: "Trustpair is the leading payment fraud prevention platform for large companies worldwide.Since 2017, Trustpair helps finance teams secure their entire P2P process, thanks to vendor account validation automation. The solution offers intuitive risk management and integrates directly with existing tools for more efficiency. The company raised 20 million euros in October 2022 to focus on their US expansion and R&D, staying at the cutting edge of fraud prevention technology.",
+  description: "Trustpair is the leading payment fraud prevention platform for large companies worldwide.nSince 2017, Trustpair helps finance teams secure their entire P2P process, thanks to vendor account validation automation. The solution offers intuitive risk management and integrates directly with existing tools for more efficiency. The company raised 20 million euros in October 2022 to focus on their US expansion and R&D, staying at the cutting edge of fraud prevention technology.",
   creationDate: "2017",
   turnover: 0,
   employees: "N/A",
   location: "Paris, France",
-  userId: 106,
+  userId: 105,
   companyWebsite: "N/A",
   companyOffices: [60],
   companyCategories: [13],
   companySubcategories: [2,17],
   productName: "Trustpair",
-  productVersion: "With Trustpairs platform, 250+ companies worldwide have avoided fraud, thanks to:The most reliable account ownership verification worldwide, leveraging unrivaled validation technology and millions of data points from internal and external data sources.Intuitive dashboards, secure workflows, and real-time warnings streamline risk identification and management.Native integrations with existing software (Procurement, ERP, TMS). Account ownership verifications are systematically done directly within this ecosystem.",
+  productVersion: "With Trustpair's platform, 250+ companies worldwide have avoided fraud, thanks to:nThe most reliable account ownership verification worldwide, leveraging unrivaled validation technology and millions of data points from internal and external data sources.nIntuitive dashboards, secure workflows, and real-time warnings streamline risk identification and management.nNative integrations with existing software (Procurement, ERP, TMS). Account ownership verifications are systematically done directly within this ecosystem.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189204/category-13-logo-7_gipauk.png",
   keywords: ["Trustpair"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Finqware",
   description: "N/A",
@@ -2665,7 +2642,7 @@ const companies = [
   turnover: 0,
   employees: "N/A",
   location: "N/A",
-  userId: 107,
+  userId: 106,
   companyWebsite: "N/A",
   companyOffices: [],
   companyCategories: [13],
@@ -2674,28 +2651,46 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189205/category-13-logo-8_hbufcg.png",
   keywords: ["Finqware"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Finologee",
-  description: "Finologee is one of Luxembourgs leading digital finance platform operators. The company facilitates the financial industrys quest for optimisation and innovation with its compliant platforms and APIs for bank compliance (PSD2 for Banks & CEDRS), mobile payments and telecom routing (Digicash & Mpulse), KYC/AML (KYC Manager & Digital Onboarding), and banks and accounts management (LYNKS). Finologee serves more than 100 banks and institutions and handles more than 25 million transactions, messages and end-customer interactions per year on their behalf. Placing user experience, technology and compliance at the core of the business, Finologees founders have been blazing a trail for FinTech 'made in Luxembourg since 2006. With a staff of 38, the company is ISO/IEC 27001 certified and is operating as a regulated financial services professional under a 'Support PFS licence granted by the Ministry of Finance.",
+  description: "Finologee is one of Luxembourg's leading digital finance platform operators. The company facilitates the financial industry's quest for optimisation and innovation with its compliant platforms and APIs for bank compliance (PSD2 for Banks & CEDRS), mobile payments and telecom routing (Digicash & Mpulse), KYC/AML (KYC Manager & Digital Onboarding), and banks and accounts management (LYNKS). Finologee serves more than 100 banks and institutions and handles more than 25 million transactions, messages and end-customer interactions per year on their behalf. Placing user experience, technology and compliance at the core of the business, Finologee's founders have been blazing a trail for FinTech ‘made in Luxembourg' since 2006. With a staff of 38, the company is ISO/IEC 27001 certified and is operating as a regulated financial services professional under a ‘Support PFS' licence granted by the Ministry of Finance.",
   creationDate: "2017",
   turnover: 0,
   employees: "N/A",
   location: "Leudelange, Luxembourg",
-  userId: 108,
+  userId: 107,
   companyWebsite: "N/A",
   companyOffices: [103],
   companyCategories: [13],
   companySubcategories: [1,2,8,14,17,20],
   productName: "LYNKS, PSD2 for banks, KYC Manager, CEDRS",
-  productVersion: "FinologeeLYNKS is a modern centralised banks and accounts management platform. It provides financial industry professionals, corporates and institutions with a single gateway to all their banks and accounts, streamlining processes such as payment initiation, validation and reporting. It consolidates account data from various banks, offering efficient access to balances, transactions, and reports. Thanks to its direct connection to the SWIFT financial messaging network, it allows for virtually unlimited bank reach around the world. LYNKS also provides seamless bank integration via any additional channels such as EBICS or SFTP. The LYNKS platform is operated in a software-as-a-service (SaaS) setup by Finologee, hosted with Luxembourgs leading data centre operator EBRC, in a redundant, compliant, secure and high-performance setup.",
+  productVersion: "FinologeeLYNKS is a modern centralised banks and accounts management platform. It provides financial industry professionals, corporates and institutions with a single gateway to all their banks and accounts, streamlining processes such as payment initiation, validation and reporting. It consolidates account data from various banks, offering efficient access to balances, transactions, and reports. Thanks to its direct connection to the SWIFT financial messaging network, it allows for virtually unlimited bank reach around the world. LYNKS also provides seamless bank integration via any additional channels such as EBICS or SFTP. The LYNKS platform is operated in a software-as-a-service (SaaS) setup by Finologee, hosted with Luxembourg's leading data centre operator EBRC, in a redundant, compliant, secure and high-performance setup.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962229/category-13-logo-9_i3dhla.png",
   keywords: ["Finologee"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Tipalti",
+  description: "N/A",
+  creationDate: "N/A",
+  turnover: 0,
+  employees: "N/A",
+  location: "N/A",
+  userId: 108,
+  companyWebsite: "N/A",
+  companyOffices: [],
+  companyCategories: [13],
+  companySubcategories: [],
+  productName: "N/A",
+  productVersion: "N/A",
+  logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650660/category-13-logo-10_fsiwuo.png",
+  keywords: ["Tipalti"],
+  live: true
+ },
+ {
+  name: "Bottomline",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2708,28 +2703,10 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "http://res.cloudinary.com/dq7aof6vb/image/upload/v1704650660/category-13-logo-10_fsiwuo.png",
-  keywords: ["Tipalti"],
-  live:true
-},
- {
-  name: "Bottomline",
-  description: "N/A",
-  creationDate: "N/A",
-  turnover: 0,
-  employees: "N/A",
-  location: "N/A",
-  userId: 110,
-  companyWebsite: "N/A",
-  companyOffices: [],
-  companyCategories: [13],
-  companySubcategories: [],
-  productName: "N/A",
-  productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962230/category-13-logo-11_wjfrrf.png",
   keywords: ["Bottomline"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Nomentia",
   description: "Nomentia is a European leader in Cash and Treasury Management with roots going back all the way to 1984. Nomentia exists to empower treasury teams with the trusted support, knowledge, and clarity needed to positively impact their organizations everyday. We do so for over 1400 clients all around the world and we have offices in 8 locations.",
@@ -2737,17 +2714,17 @@ const companies = [
   turnover: 0,
   employees: "N/A",
   location: "Espoo, Finland",
-  userId: 111,
+  userId: 110,
   companyWebsite: "N/A",
   companyOffices: [59],
   companyCategories: [13],
   companySubcategories: [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,19,20],
   productName: "Nomentia",
-  productVersion: "Nomentia has Cash Management and Treasury Modules that can be used separately or combined to form the Treasury Management system of choice for any organization.  All modules are part of a SaaS hosted on Microsoft Azure and connected sharing all master data.  Our SaaS solution consists of 14 Modules that can also be used separately.• Accounts - an overview and status and permissions of all accounts. • Liquidity - full cash visibility and cash forecasting depending on needs and set-up. • Payments - allowing clients to make and approve payments. The core payment hub. • Matching - full reconciliation and posting engine. • In-House Bank - facilitates Netting, Pooling, Virtual Accounts and much more. • Archive - allows clients to retrieve archived payment, account, and statement data. • E-BAM - an overview and status and permissions of all accounts, including E-BAM. • Cash Visibility - full visibility of cash and other financial instruments. • Cash Forecasting – Short- and long-term forecasting on all financial instruments. • Risk Management – FX, IR and commodity risk management to optimize and manage. • Trade Finance – Guarantee Management and other trade finance flows and information. • Bank Fee Controlling – Transparency and check on all your bank fees. • Reporting – Best in class reporting and many options for self-service BI and Dashboards. • Treasury Workflows – Connecting all internal systems to ensure full control and connectivity.",
+  productVersion: "Nomentia has Cash Management and Treasury Modules that can be used separately or combined to form the Treasury Management system of choice for any organization.  All modules are part of a SaaS hosted on Microsoft Azure and connected sharing all master data.  Our SaaS solution consists of 14 Modules that can also be used separately.n• Accounts - an overview and status and permissions of all accounts. n• Liquidity - full cash visibility and cash forecasting depending on needs and set-up. n• Payments - allowing clients to make and approve payments. The core payment hub. n• Matching - full reconciliation and posting engine. n• In-House Bank - facilitates Netting, Pooling, Virtual Accounts and much more. n• Archive - allows clients to retrieve archived payment, account, and statement data. n• E-BAM - an overview and status and permissions of all accounts, including E-BAM. n• Cash Visibility - full visibility of cash and other financial instruments. n• Cash Forecasting – Short- and long-term forecasting on all financial instruments. n• Risk Management – FX, IR and commodity risk management to optimize and manage. n• Trade Finance – Guarantee Management and other trade finance flows and information. n• Bank Fee Controlling – Transparency and check on all your bank fees. n• Reporting – Best in class reporting and many options for self-service BI and Dashboards. n• Treasury Workflows – Connecting all internal systems to ensure full control and connectivity.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705182096/category-13-logo-12_f3p1ck.png",
   keywords: ["Nomentia"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Exthand",
   description: "N/A",
@@ -2755,7 +2732,7 @@ const companies = [
   turnover: 0,
   employees: "N/A",
   location: "N/A",
-  userId: 112,
+  userId: 111,
   companyWebsite: "N/A",
   companyOffices: [],
   companyCategories: [13],
@@ -2764,8 +2741,8 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189206/category-13-logo-13_x474px.png",
   keywords: ["Exthand"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Convista",
   description: "Convista is one of the leading consultancies for transformation. The consultancy supports its clients in the conceptualisation and implementation of new business processes and designs end-to-end solutions for SAP and IT projects. Together with its customers, Convista masters complex challenges by pooling its expertise and many years of industry and technology experience. For more than 20 years, Convista has been supporting customers from the insurance, industry, healthcare and energy sectors with SAP and IT projects - for an increasingly digitalised world. Convista is headquartered in Cologne and employs around 1,200 people worldwide.",
@@ -2773,7 +2750,7 @@ const companies = [
   turnover: 0,
   employees: "N/A",
   location: "Cologne (Germany)",
-  userId: 113,
+  userId: 112,
   companyWebsite: "N/A",
   companyOffices: [64],
   companyCategories: [13],
@@ -2782,8 +2759,8 @@ const companies = [
   productVersion: "As Convista, we are one of the leading consultancies for transformation. We support you in designing and implementing new business processes and create end-to-end solutions for your SAP as well as IT projects.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189206/category-13-logo-14_qpqhc5.png",
   keywords: ["Convista"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Tis",
   description: "N/A",
@@ -2791,7 +2768,7 @@ const companies = [
   turnover: 0,
   employees: "N/A",
   location: "N/A",
-  userId: 114,
+  userId: 113,
   companyWebsite: "N/A",
   companyOffices: [],
   companyCategories: [13],
@@ -2800,10 +2777,28 @@ const companies = [
   productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705290923/category-13-logo-15_o3e2i0.png",
   keywords: ["Tis"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Blueprism",
+  description: "N/A",
+  creationDate: "N/A",
+  turnover: 0,
+  employees: "N/A",
+  location: "N/A",
+  userId: 114,
+  companyWebsite: "N/A",
+  companyOffices: [],
+  companyCategories: [14],
+  companySubcategories: [],
+  productName: "N/A",
+  productVersion: "N/A",
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962580/category-14-logo-1_hlk7pu.jpg",
+  keywords: ["Blueprism"],
+  live: true
+ },
+ {
+  name: "Finnech",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2816,12 +2811,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962580/category-14-logo-1_hlk7pu.jpg",
-  keywords: ["Blueprism"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705291334/category-14-logo-2_bjakca.png",
+  keywords: ["Finnech"],
+  live: true
+ },
  {
-  name: "Finnech",
+  name: "Insight Software",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2834,12 +2829,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705291334/category-14-logo-2_bjakca.png",
-  keywords: ["Finnech"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962564/category-14-logo-3_ekamva.png",
+  keywords: ["Insight Software"],
+  live: true
+ },
  {
-  name: "Insight Software",
+  name: "Fundprocess",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2852,12 +2847,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962564/category-14-logo-3_ekamva.png",
-  keywords: ["Insight Software"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189208/category-14-logo-4_oyfqj4.png",
+  keywords: ["Fundprocess"],
+  live: true
+ },
  {
-  name: "Fundprocess",
+  name: "Pega",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2870,12 +2865,12 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705189208/category-14-logo-4_oyfqj4.png",
-  keywords: ["Fundprocess"],
-  live:true
-},
+  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962566/category-14-logo-5_mduch2.png",
+  keywords: ["Pega"],
+  live: true
+ },
  {
-  name: "Pega",
+  name: "R Studio",
   description: "N/A",
   creationDate: "N/A",
   turnover: 0,
@@ -2888,28 +2883,10 @@ const companies = [
   companySubcategories: [],
   productName: "N/A",
   productVersion: "N/A",
-  logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962566/category-14-logo-5_mduch2.png",
-  keywords: ["Pega"],
-  live:true
-},
- {
-  name: "R Studio",
-  description: "N/A",
-  creationDate: "N/A",
-  turnover: 0,
-  employees: "N/A",
-  location: "N/A",
-  userId: 120,
-  companyWebsite: "N/A",
-  companyOffices: [],
-  companyCategories: [14],
-  companySubcategories: [],
-  productName: "N/A",
-  productVersion: "N/A",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1704962571/category-14-logo-6_oxvzp9.png",
   keywords: ["R Studio"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Necto",
   description: "We created Necto so corporates, banks, treasury technology providers, ERPs and PSPs can evolve beyond antiquated financial messaging. Our platform harnesses the power of next generation, API driven bank connectivity. As a team of proven Fintech innovators, we made it our mission to provide the rails for our partners and clients to transform how global treasury operates.",
@@ -2917,25 +2894,25 @@ const companies = [
   turnover: 0,
   employees: "N/A",
   location: "US",
-  userId: 121,
+  userId: 120,
   companyWebsite: "N/A",
   companyOffices: [],
   companyCategories: [13],
   companySubcategories: [1,11],
   productName: "BankLync",
-  productVersion: "BankLync is an ultra-light service that provides a centralized API endpoint for querying different bank account details and issuing instructions. BankLync also maintains the keys or certificates provided by banks, which are required to ensure secure connectivity with the bank. BankLync eliminates the lengthy time, cost, and labor of building bank APIs in-house. Nectos multi-bank aggregator creates bank API connectivity, fast.",
+  productVersion: "BankLync is an ultra-light service that provides a centralized API endpoint for querying different bank account details and issuing instructions. BankLync also maintains the keys or certificates provided by banks, which are required to ensure secure connectivity with the bank. BankLync eliminates the lengthy time, cost, and labor of building bank APIs in-house. Necto's multi-bank aggregator creates bank API connectivity, fast.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705210202/category-13-logo-16_h8cs8o.png",
   keywords: ["Necto"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Sgx FX",
-  description: "SGX FX offers a gateway to the global FX ecosystem, anchored by the worlds most liquid Asian FX futures exchange together with cutting-edge FX technology and workflow solutions from BidFX and MaxxTrader. SGX CurrencyNode, an FX electronic communication network, connects global participants anonymously to unique and deep OTC FX liquidity pools.",
+  description: "SGX FX offers a gateway to the global FX ecosystem, anchored by the world's most liquid Asian FX futures exchange together with cutting-edge FX technology and workflow solutions from BidFX and MaxxTrader. SGX CurrencyNode, an FX electronic communication network, connects global participants anonymously to unique and deep OTC FX liquidity pools.",
   creationDate: "2017",
   turnover: 0,
   employees: "N/A",
   location: "Singapore",
-  userId: 122,
+  userId: 121,
   companyWebsite: "www.sgx.com/fx",
   companyOffices: [157],
   companyCategories: [1],
@@ -2944,26 +2921,26 @@ const companies = [
   productVersion: "SGX FX brings innovation to the global FX ecosystem - from accessing wide liquidity pools in both OTC and Futures markets, to customising cutting-edge workflow solutions for the buy and sell-side, our comprehensive offerings are designed to help you stay ahead of the curve.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705210562/category-1-logo-12_nozoev.png",
   keywords: ["Sgx FX"],
-  live:true
-},
+  live: true
+ },
  {
   name: "TransferMate",
-  description: "TransferMate – a subsidiary of CluneTech — is the worlds leading provider of B2B payments infrastructure-as-a-service, enabling companies to send and receive cross-border payments faster, easier and at lower cost. TransferMate, under the leadership of founder Terry Clune and CEO Sinead Fitzmaurice, has built one of the largest portfolios of payments licenses worldwide, including 51 US states and territories, to support trading in more than 201 countries and 141 currencies. Leading banks, fintechs and software providers partner with TransferMate to offer an enhanced user experience for their business customers. The company has created bespoke integrations for banks like ING and AIB, who are also investors in the company. The TransferMate API solution allows partners to digitalize the payments flow within their software, enabling all businesses to achieve significant time and financial savings.",
+  description: "TransferMate – a subsidiary of CluneTech — is the world's leading provider of B2B payments infrastructure-as-a-service, enabling companies to send and receive cross-border payments faster, easier and at lower cost.n nTransferMate, under the leadership of founder Terry Clune and CEO Sinead Fitzmaurice, has built one of the largest portfolios of payments licenses worldwide, including 51 US states and territories, to support trading in more than 201 countries and 141 currencies.n nLeading banks, fintechs and software providers partner with TransferMate to offer an enhanced user experience for their business customers. The company has created bespoke integrations for banks like ING and AIB, who are also investors in the company. The TransferMate API solution allows partners to digitalize the payments flow within their software, enabling all businesses to achieve significant time and financial savings.",
   creationDate: "2010",
   turnover: 0,
   employees: "N/A",
   location: "Kilkenny, Ireland",
-  userId: 123,
+  userId: 122,
   companyWebsite: "N/A",
   companyOffices: [80],
   companyCategories: [5],
   companySubcategories: [3],
   productName: "TransferMate Global Payments",
-  productVersion: "TransferMate Global Payments is the worlds leading provider of B2B payments infrastructure-as-a-service. Over the past decade, TransferMate has built the largest non-bank network in the world that allows businesses and individuals to make cross-border payments as easily as if making a domestic funds transfer. Over €18 billion flowed through TransferMates in 2022, up from €7.2billion in 2021, showing an 86% year on year growth. Continuous growth and innovation for a decade culminated in TransferMates unicorn status in May 2022. We offer payables, receivables, and stored value solutions. By combining our global, regulated payments network and our technology, businesses can pay and receive across the world easier, faster, more transparently, and more cost-effectively than through traditional methods. Our Global Accounts solution allows businesses to hold, pay and receive multiple currencies on a single platform, allowing them to trade globally like they had a local banking presence. Our API integrations allow partners to 'upgrade their payment engine and offer their end-users the same benefits as our direct clients. We are now integrated into banks, FIs, fintechs, ERPs, BSMs, Procurement, Accounting and E-Commerce platforms across the world. Partners include SAP Concur, Coupa Pay, Sage, Quickbooks, AccountsIQ, Wells Fargo, and Barclays.",
+  productVersion: "TransferMate Global Payments is the world's leading provider of B2B payments infrastructure-as-a-service. Over the past decade, TransferMate has built the largest non-bank network in the world that allows businesses and individuals to make cross-border payments as easily as if making a domestic funds transfer.n nOver €18 billion flowed through TransferMate's in 2022, up from €7.2billion in 2021, showing an 86% year on year growth. Continuous growth and innovation for a decade culminated in TransferMate's unicorn status in May 2022.n nWe offer payables, receivables, and stored value solutions. By combining our global, regulated payments network and our technology, businesses can pay and receive across the world easier, faster, more transparently, and more cost-effectively than through traditional methods. Our Global Accounts solution allows businesses to hold, pay and receive multiple currencies on a single platform, allowing them to trade globally like they had a local banking presence.n nOur API integrations allow partners to ‘upgrade their payment' engine and offer their end-users the same benefits as our direct clients. We are now integrated into banks, FIs, fintech's, ERPs, BSMs, Procurement, Accounting and E-Commerce platforms across the world. Partners include SAP Concur, Coupa Pay, Sage, Quickbooks, AccountsIQ, Wells Fargo, and Barclays.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705210831/category-5-logo-13_km86tu.png",
   keywords: ["TransferMate"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Onbrane",
   description: "Onbrane is a France-headquartered technology provider, focusing on developing innovative solutions for the debt market, covering vanilla, sustainable, and asset-backed debt products. Today, Onbrane is a leader in the digitalization of the short-term primary debt market, improving debt negotiation and issuance processes for some of the largest public, private, and financial institutions.",
@@ -2971,35 +2948,35 @@ const companies = [
   turnover: 0,
   employees: "N/A",
   location: "Paris, France",
-  userId: 124,
+  userId: 123,
   companyWebsite: "N/A",
   companyOffices: [60],
   companyCategories: [1],
   companySubcategories: [7,9],
   productName: "The Onbrane platform",
-  productVersion: "The Onbrane platform offers a one-stop-shop web-based solution to primary debt market actors. Onbrane brings together issuers, intermediaries, and investors in one connected environment, allowing them to manage their debt market activity through dedicated functionalities. The platform digitalizes the entire debt issuance lifecycle and offers comprehensive market data analytics: Pre-negotiation: Managing debt programs, opening lines with counterparts, ESG framework creation, broadcasting funding/investment needs.Bilateral negotiation through a flexible offer-counter-offer system. Post negotiation: Fully automated post-trade through API connections: ISIN code retrieval; data entry to third-party software (TMS/OMS etc); data flow to IPA and custodians. Data Analytics - a robust data module to observe historic and live market data, compare performance, achieve competitive pricing, simplify reporting  ",
+  productVersion: "The Onbrane platform offers a one-stop-shop web-based solution to primary debt market actors. Onbrane brings together issuers, intermediaries, and investors in one connected environment, allowing them to manage their debt market activity through dedicated functionalities. The platform digitalizes the entire debt issuance lifecycle and offers comprehensive market data analytics: nnPre-negotiation: Managing debt programs, opening lines with counterparts, ESG framework creation, broadcasting funding/investment needs.nnBilateral negotiation through a flexible offer-counter-offer system. nnPost negotiation: Fully automated post-trade through API connections: ISIN code retrieval; data entry to third-party software (TMS/OMS etc); data flow to IPA and custodians. nnData Analytics - a robust data module to observe historic and live market data, compare performance, achieve competitive pricing, simplify reporting  ",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705211145/category-1-logo-13_dcvnxe.png",
   keywords: ["Onbrane"],
-  live:true
-},
+  live: true
+ },
  {
   name: "Crowd Data Systems",
-  description: "Crowd Data Systems (CDS) was formed to develop the first 'True SaaS platform for corporate treasury, providing cash management, forecasting, treasury and risk management in a collaborative framework.",
+  description: "Crowd Data Systems (CDS) was formed to develop the first 'True SaaS' platform for corporate treasury, providing cash management, forecasting, treasury and risk management in a collaborative framework.",
   creationDate: "2022",
   turnover: 0,
   employees: "N/A",
   location: "UK",
-  userId: 125,
+  userId: 124,
   companyWebsite: "N/A",
   companyOffices: [186],
   companyCategories: [6],
   companySubcategories: [1,2,3,5,7,8,9,10,11,12,13,14,15,17,18,19,20],
   productName: "Vision",
-  productVersion: "Vision by Crowd Data Systems is the first True SaaS platform for corporate treasury, providing cash management, forecasting, treasury and risk management that is easy-to-use and immediately available on a monthly subscription. The concept of the “strategic treasury”, whilst much discussed, has become synonymous with lengthy implementations and bespoke configuration, pushing it yet further from the reach of most corporate treasuries. Our 'Vision is an all-new integrated platform of software, services and data that puts collaboration at the heart of a new model for treasury. One that removes the technical burden, frees the teams time and allows the treasury to actually be strategic.",
+  productVersion: "Vision by Crowd Data Systems is the first True SaaS platform for corporate treasury, providing cash management, forecasting, treasury and risk management that is easy-to-use and immediately available on a monthly subscription. The concept of the “strategic treasury”, whilst much discussed, has become synonymous with lengthy implementations and bespoke configuration, pushing it yet further from the reach of most corporate treasuries. Our ‘Vision' is an all-new integrated platform of software, services and data that puts collaboration at the heart of a new model for treasury. One that removes the technical burden, frees the team's time and allows the treasury to actually be strategic.",
   logo: "https://res.cloudinary.com/dq7aof6vb/image/upload/v1705290505/category-6-logo-18_itdpfr.png",
   keywords: ["Crowd Data Systems"],
-  live:true
-}
+  live: true
+ }
 ]
 
 const questions = [

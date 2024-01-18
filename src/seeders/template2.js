@@ -340,11 +340,6 @@
   "password": "12345"
  },
  {
-  "fullName": "Category-7-Logo-8",
-  "email": "category-7-logo-8@admin.com",
-  "password": "12345"
- },
- {
   "fullName": "TreaSolution Inc",
   "email": "treasolutioninc@admin.com",
   "password": "12345"
