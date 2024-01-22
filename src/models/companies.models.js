@@ -73,6 +73,9 @@ const Companies = db.define("companies", {
   },
   live: {
     type: DataTypes.BOOLEAN
+  },
+  maincategory:{
+    type: DataTypes.ARRAY(DataTypes.INTEGER),
   }  
 });
 
