@@ -1,13 +1,14 @@
 const transporter = require("../utils/nodemailer");
 const AuthServices = require("../services/auth.services");
 const UsersServices = require("../services/users.services");
+const Companies = require("../models/companies.models");
 
 const sendEmail = async (req, res, next) => {
   try {
     const { company, message, name, email } = req.body;
     const result = await transporter.sendMail({
-      to: "treasury.map.project@gmail.com",
-      subject: `From Contact Us - ${name}, ${company} `,
+      to: "treasury.map.project@gmail.com, contact@360crossmedia.com",
+      subject: `New Message From Contact Us TreasuryMap`,
       html: `
       <p>Email: ${email}</p>
       <p>Company: ${company}</p>
@@ -23,12 +24,20 @@ const sendEmail = async (req, res, next) => {
 
 const updateMessage = async (req, res, next) => {
   try {
-    const { companyName, name } = req.body;
+    const { companyName, name, previousValue, newValue } = req.body;
     const result = await transporter.sendMail({
       to: "treasury.map.project@gmail.com",
       subject: `Update Alert From Company ${companyName}`,
       html: `
       <h5>The user ${name} updated the company ${companyName}</h5>
+      <div>
+        <h4>Previous Value</h4>
+        <pre>${JSON.stringify(previousValue, null, 2)}</pre>
+      </div>
+      <div>
+        <h4>New Value</h4>
+        <pre>${JSON.stringify(newValue, null, 2)}</pre>
+      </div>
       `,
     });
     return res.status(200).json(result);
@@ -76,9 +85,28 @@ const restorePassword = async (req, res, next) => {
   }
 };
 
+const signUpAlert = async (req, res, next) => {
+  try {
+    const props = req.body;
+    const result = await transporter.sendMail({
+      to: "treasury.map.project@gmail.com, contact@360crossmedia.com",
+      subject: "New Sign Up On TreasuryMap",
+      html: `
+        <h5>Email: ${props.email}</h5>
+        <h5>Full name: ${props.fullName}</h5>
+        <h5>Company name: ${props.companyName}</h5>
+        `,
+    });
+    return res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   sendEmail,
   updateMessage,
   createMessage,
   restorePassword,
+  signUpAlert,
 };
