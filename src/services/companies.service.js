@@ -64,12 +64,15 @@ class CompaniesServices {
 
   static async updateCompanyDataService(companyId, updatedData) {
     try {
+      const previusValue = await Companies.findOne({
+        where: { id: companyId },
+      });
       const company = await Companies.update(updatedData, {
         where: {
           id: companyId,
         },
       });
-      return company;
+      if (company) return previusValue;
     } catch (error) {
       throw error;
     }
