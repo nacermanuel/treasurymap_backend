@@ -13,7 +13,7 @@ const Articles = db.define("articles", {
     allowNull: false,
   },
   body: {
-    type: DataTypes.STRING(1000),
+    type: DataTypes.TEXT,
     allowNull: false,
   },
   companyId: {
