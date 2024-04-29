@@ -12,7 +12,6 @@ const Companies = db.define("companies", {
     type: DataTypes.STRING,
     field: "name",
     allowNull: false,
-    //Se cambio en ultimo momento
     unique: false,
   },
   description: {
@@ -73,6 +72,7 @@ const Companies = db.define("companies", {
   },
   live: {
     type: DataTypes.BOOLEAN,
+    defaultValue: false,
   },
   maincategory: {
     type: DataTypes.ARRAY(DataTypes.INTEGER),

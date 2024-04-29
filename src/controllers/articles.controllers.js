@@ -5,7 +5,6 @@ const CreateArticle = async (req, res, next) => {
     const { companyId } = req.params;
     const articleData = req.body;
     articleData.companyId = companyId;
-    console.log(articleData);
     const result = await ArticlesServices.createArticleService(articleData);
     res.status(201).json(result);
   } catch (error) {

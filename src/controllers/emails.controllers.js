@@ -1,7 +1,6 @@
 const transporter = require("../utils/nodemailer");
 const AuthServices = require("../services/auth.services");
 const UsersServices = require("../services/users.services");
-const Companies = require("../models/companies.models");
 
 const sendEmail = async (req, res, next) => {
   try {
@@ -103,10 +102,28 @@ const signUpAlert = async (req, res, next) => {
   }
 };
 
+const newPublicationAlert = async (req, res, next) => {
+  try {
+    const props = req.body;
+    const result = await transporter.sendMail({
+      to: "treasury.map.project@gmail.com",
+      subject: `New Publication from ${props?.companyName} On TreasuryMap`,
+      html: `
+        <h5>Title: ${props?.title}</h5>
+        <img width="300px" src=${props?.image} alt="image" />
+        `,
+    });
+    return res.status(200).json(result);
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   sendEmail,
   updateMessage,
   createMessage,
   restorePassword,
   signUpAlert,
+  newPublicationAlert,
 };
