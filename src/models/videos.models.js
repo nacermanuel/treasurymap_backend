@@ -36,6 +36,9 @@ const Videos = db.define("videos", {
     type: DataTypes.BOOLEAN,
     defaultValue: false,
   },
+  tags: {
+    type: DataTypes.ARRAY(DataTypes.STRING),
+  },
 });
 
 module.exports = Videos;
