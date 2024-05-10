@@ -99,6 +99,13 @@ const categoriesTemplate =
             categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676490/category-14_mb3pcp.png',
             logos: []
           },
+          {
+            id: 14,
+            categoryName: 'Category 15',
+            categoryKey: 'category-15',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715382115/PSPCATEGORY_eg1cyg.png',
+            logos: []
+          },             
         ];
 
 module.exports = categoriesTemplate;
