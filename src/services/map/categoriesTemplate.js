@@ -103,7 +103,7 @@ const categoriesTemplate =
             id: 14,
             categoryName: 'Category 15',
             categoryKey: 'category-15',
-            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715382115/PSPCATEGORY_eg1cyg.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715385412/Frame_19_1_zxd0hz.png',
             logos: []
           },             
         ];
