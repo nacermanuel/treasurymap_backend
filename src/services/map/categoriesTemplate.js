@@ -12,7 +12,7 @@ const categoriesTemplate =
             id: 1,
             categoryName: 'Category 2',
             categoryKey: 'category-2',
-            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676482/category-2rr_lbet9k.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715392636/Frame_20_1_lzicl5.png',
             logos: []
           },
           {
@@ -89,7 +89,7 @@ const categoriesTemplate =
             id: 12,
             categoryName: 'Category 13',
             categoryKey: 'category-13',
-            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676490/category-13_u1qgvt.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715392636/Frame_21_amoquq.png',
             logos: []
           },
           {
