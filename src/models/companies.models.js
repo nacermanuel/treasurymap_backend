@@ -12,7 +12,6 @@ const Companies = db.define("companies", {
     type: DataTypes.STRING,
     field: "name",
     allowNull: false,
-    //Se cambio en ultimo momento
     unique: false,
   },
   description: {
@@ -24,7 +23,7 @@ const Companies = db.define("companies", {
     field: "creation_date",
   },
   turnover: {
-    type: DataTypes.INTEGER,
+    type: DataTypes.BIGINT,
   },
   employees: {
     type: DataTypes.STRING,
@@ -69,14 +68,20 @@ const Companies = db.define("companies", {
     type: DataTypes.STRING,
   },
   keywords: {
-    type: DataTypes.ARRAY(DataTypes.STRING)
+    type: DataTypes.ARRAY(DataTypes.STRING),
   },
   live: {
-    type: DataTypes.BOOLEAN
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
   },
-  maincategory:{
+  maincategory: {
     type: DataTypes.ARRAY(DataTypes.INTEGER),
-  }  
+  },
+  showTurnover: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: true,
+    field: "show_turnover",
+  },
 });
 
 module.exports = Companies;

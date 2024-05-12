@@ -1,3 +1,4 @@
+const { where } = require("sequelize");
 const Companies = require("../models/companies.models");
 
 class CompaniesServices {
@@ -86,6 +87,19 @@ class CompaniesServices {
         },
       });
       return company;
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  static async getCompaniesByMainCategoryId(id) {
+    try {
+      const companies = await Companies.findAll({
+        where: {
+          maincategory: [id],
+        },
+      });
+      return companies;
     } catch (error) {
       throw error;
     }
