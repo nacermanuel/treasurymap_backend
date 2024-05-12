@@ -12,7 +12,7 @@ const categoriesTemplate =
             id: 1,
             categoryName: 'Category 2',
             categoryKey: 'category-2',
-            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715392636/Frame_20_1_lzicl5.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676482/category-2rr_lbet9k.png',
             logos: []
           },
           {
@@ -89,7 +89,7 @@ const categoriesTemplate =
             id: 12,
             categoryName: 'Category 13',
             categoryKey: 'category-13',
-            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715392636/Frame_21_amoquq.png',
+            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676490/category-13_u1qgvt.png',
             logos: []
           },
           {
@@ -99,13 +99,7 @@ const categoriesTemplate =
             categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1704676490/category-14_mb3pcp.png',
             logos: []
           },
-          {
-            id: 14,
-            categoryName: 'Category 15',
-            categoryKey: 'category-15',
-            categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715385412/Frame_19_1_zxd0hz.png',
-            logos: []
-          },             
+         
         ];
 
 module.exports = categoriesTemplate;
