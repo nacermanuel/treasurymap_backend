@@ -23,7 +23,7 @@ class PublicationsServices {
             },
           },
           order: [["createdAt", "DESC"]], // Ordenar por fecha de creación en orden descendente
-          limit: 6, // Limitar el resultado a las últimas 6 publicaciones
+          limit: 15, // Limitar el resultado a las últimas 15 publicaciones
         }),
         Articles.findAll({
           where: {
@@ -35,7 +35,7 @@ class PublicationsServices {
             },
           },
           order: [["createdAt", "DESC"]], // Ordenar por fecha de creación en orden descendente
-          limit: 6, // Limitar el resultado a las últimas 6 publicaciones
+          limit: 15, // Limitar el resultado a las últimas 15 publicaciones
         }),
       ]);
 
@@ -46,7 +46,7 @@ class PublicationsServices {
       );
       const sortedPublications = combinedPublications
         .sort((a, b) => b.createdAt - a.createdAt) // Ordenar por fecha de creación en orden descendente
-        .slice(0, 6); // Tomar solo las primeras 6 publicaciones
+        .slice(0, 15); // Tomar solo las primeras 15 publicaciones
 
       return sortedPublications; // Devolver las últimas 6 publicaciones
     } catch (error) {
@@ -79,7 +79,7 @@ class PublicationsServices {
           },
         },
         order: Sequelize.literal("RANDOM()"), // Orden aleatorio
-        limit: 2, // Limita el resultado a 3 publicaciones aleatorias
+        limit: 6, // Limita el resultado a 3 publicaciones aleatorias
       });
 
       // Obtener publicaciones aleatorias de artículos
@@ -94,7 +94,7 @@ class PublicationsServices {
           },
         },
         order: Sequelize.literal("RANDOM()"), // Orden aleatorio
-        limit: 2, // Limita el resultado a 3 publicaciones aleatorias
+        limit: 13, // Limita el resultado a 3 publicaciones aleatorias
       });
 
       // Combinar las publicaciones aleatorias de videos y artículos
@@ -125,8 +125,8 @@ class PublicationsServices {
       const articlesByCompanyId = await Promise.all(articlesPromises);
 
       const combinedPublications = [
-        ...videosByCompanyId,
         ...articlesByCompanyId,
+        ...videosByCompanyId,
       ].flat();
 
       if (combinedPublications.length == 0) {
