@@ -27,7 +27,7 @@ app.use(cors());
 // app.use(cors(corsOptions));
 app.use(morgan("tiny"));
 
-// initModels();
+initModels();
 db.authenticate()
   .then(() => console.log("BD authenticate"))
   .catch((error) => console.log(error));
