@@ -7,6 +7,7 @@ const initModels = require("./models/init.models");
 const routerApi = require("./routes");
 const seeder = require("./seeders/seed");
 var cloudinary = require("cloudinary").v2;
+const bodyParser = require("body-parser");
 
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
@@ -19,12 +20,14 @@ cloudinary.config({
 //   origin: "https://treasurymap.com",
 // };
 
+app.use(bodyParser.json({ limit: "3mb" }));
+app.use(bodyParser.urlencoded({ limit: "3mb", extended: true }));
 app.use(express.json());
 app.use(cors());
 // app.use(cors(corsOptions));
 app.use(morgan("tiny"));
 
-initModels();
+// initModels();
 db.authenticate()
   .then(() => console.log("BD authenticate"))
   .catch((error) => console.log(error));

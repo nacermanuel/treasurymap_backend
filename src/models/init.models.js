@@ -1,12 +1,13 @@
 const Users = require("./user.models");
-const Companies = require("./companies.models")
-const Categories = require("./categories.models")
-const SubCategories = require("./subcategories.models")
-const Questions = require("./questions.models")
-const CompaniesAnswers = require("./companiesanswers.models")
-const Countries = require("./countries.models")
-const Videos = require("./videos.models")
-const Articles = require("./articles.models")
+const Companies = require("./companies.models");
+const Categories = require("./categories.models");
+const SubCategories = require("./subcategories.models");
+const Questions = require("./questions.models");
+const CompaniesAnswers = require("./companiesanswers.models");
+const Countries = require("./countries.models");
+const Videos = require("./videos.models");
+const Articles = require("./articles.models");
+const MainPublication = require("./mainpublication.models");
 
 const initModels = () => {
   Users;
@@ -18,6 +19,7 @@ const initModels = () => {
   Countries;
   Videos;
   Articles;
-}
+  MainPublication;
+};
 
 module.exports = initModels;

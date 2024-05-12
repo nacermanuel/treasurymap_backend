@@ -16,6 +16,17 @@ const Articles = db.define("articles", {
     type: DataTypes.TEXT,
     allowNull: false,
   },
+  introduction: {
+    type: DataTypes.STRING(500),
+  },
+  coverImage: {
+    type: DataTypes.STRING,
+    field: "cover_image",
+  },
+  live: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+  },
   companyId: {
     type: DataTypes.INTEGER,
     field: "company_id",
@@ -24,6 +35,9 @@ const Articles = db.define("articles", {
       model: "companies",
       key: "id",
     },
+  },
+  tags: {
+    type: DataTypes.ARRAY(DataTypes.STRING),
   },
 });
 
