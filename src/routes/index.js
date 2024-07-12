@@ -29,7 +29,7 @@ const routerApi = (app) => {
   app.use("/api/v1/countries", countriesRoutes, error);
   app.use("/api/v1/users", usersRoutes, error);
   app.use("/api/v1/email", emailsRoutes, error);
-  app.use("/api/v1/mainPublication", mainPublicationRoutes, error);
+  app.use("/api/v1/mainPublications", mainPublicationRoutes, error);
   app.use("/api/v1/publications", publicationsRoutes, error);
 };
 

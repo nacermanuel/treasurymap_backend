@@ -56,30 +56,30 @@ class PublicationsServices {
 
   static async GetRandomPublications() {
     try {
-      // Obtener la mainPublication
-      const mainPublication = await MainPublication.findOne();
+      // Obtener las 16 main publications ordenadas por ID
+      const mainPublications = await MainPublication.findAll({
+        order: [["id", "ASC"]],
+        limit: 16,
+      });
 
-      // Obtener las últimas 6 publicaciones
-      const latestPublications =
-        await PublicationsServices.GetLatestPublications();
-      // Obtener los IDs de las últimas 6 publicaciones
-      const latestPublicationIds = latestPublications.map(
-        (publication) => publication.id
-      );
+      // Obtener las IDs de los artículos y videos de las main publications
+      const articleIds = mainPublications
+        .filter((pub) => pub.isArticle)
+        .map((pub) => pub.publicationId);
+      const videoIds = mainPublications
+        .filter((pub) => !pub.isArticle)
+        .map((pub) => pub.publicationId);
 
       // Obtener publicaciones aleatorias de videos
       const randomVideos = await Videos.findAll({
         where: {
           live: true,
           id: {
-            [Op.notIn]: [
-              mainPublication?.isArticle ? 0 : mainPublication?.publicationId,
-              ...latestPublicationIds,
-            ],
+            [Op.notIn]: videoIds,
           },
         },
         order: Sequelize.literal("RANDOM()"), // Orden aleatorio
-        limit: 6, // Limita el resultado a 3 publicaciones aleatorias
+        limit: 13, // Limita el resultado a 6 publicaciones aleatorias
       });
 
       // Obtener publicaciones aleatorias de artículos
@@ -87,14 +87,11 @@ class PublicationsServices {
         where: {
           live: true,
           id: {
-            [Op.notIn]: [
-              mainPublication?.isArticle ? mainPublication?.publicationId : 0,
-              ...latestPublicationIds,
-            ],
+            [Op.notIn]: articleIds,
           },
         },
         order: Sequelize.literal("RANDOM()"), // Orden aleatorio
-        limit: 13, // Limita el resultado a 3 publicaciones aleatorias
+        limit: 6, // Limita el resultado a 13 publicaciones aleatorias
       });
 
       // Combinar las publicaciones aleatorias de videos y artículos
