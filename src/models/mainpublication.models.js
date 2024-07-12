@@ -1,7 +1,5 @@
 const db = require("../utils/database");
 const { DataTypes } = require("sequelize");
-const Articles = require("./articles.models");
-const Videos = require("./videos.models");
 
 const MainPublication = db.define("main_publication", {
   id: {
