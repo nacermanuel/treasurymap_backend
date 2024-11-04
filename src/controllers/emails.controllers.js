@@ -106,7 +106,7 @@ const newPublicationAlert = async (req, res, next) => {
   try {
     const props = req.body;
     const result = await transporter.sendMail({
-      to: "treasury.map.project@gmail.com",
+      to: "treasury.map.project@gmail.com, care@360crossmedia.com",
       subject: `New Publication from ${props?.companyName} On TreasuryMap`,
       html: `
         <h5>Title: ${props?.title}</h5>

@@ -16,15 +16,14 @@ cloudinary.config({
   secure: true,
 });
 
-// const corsOptions = {
-//   origin: "https://treasurymap.com",
-// };
+const corsOptions = {
+  origin: "https://treasurymap.com",
+};
 
 app.use(bodyParser.json({ limit: "3mb" }));
 app.use(bodyParser.urlencoded({ limit: "3mb", extended: true }));
 app.use(express.json());
-app.use(cors());
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 app.use(morgan("tiny"));
 
 initModels();
