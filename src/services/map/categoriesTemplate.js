@@ -105,7 +105,7 @@ const categoriesTemplate =
             categoryKey: 'category-15',
             categoryImage: 'https://res.cloudinary.com/dq7aof6vb/image/upload/v1715385412/Frame_19_1_zxd0hz.png',
             logos: []
-          },             
+          },           
         ];
 
 module.exports = categoriesTemplate;
