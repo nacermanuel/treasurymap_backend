@@ -104,6 +104,20 @@ class CompaniesServices {
       throw error;
     }
   }
+
+  static async getAllCompaniesWithMultiplayerMapAndLive() {
+    try {
+      const companies = await Companies.findAll({
+        where: {
+          multiplayerMap: true,
+          live: true,
+        },
+      });
+      return companies;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = CompaniesServices;
