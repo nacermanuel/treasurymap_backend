@@ -82,6 +82,11 @@ const Companies = db.define("companies", {
     defaultValue: true,
     field: "show_turnover",
   },
+  multiplayerMap: {
+    type: DataTypes.BOOLEAN,
+    defaultValue: false,
+    field: "multiplayer_map",
+  },
 });
 
 module.exports = Companies;
