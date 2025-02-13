@@ -31,7 +31,7 @@ db.authenticate()
   .then(() => console.log("BD authenticate"))
   .catch((error) => console.log(error));
 
-db.sync({ force: false })
+db.sync({ alter: true })
   .then(() => {
     console.log("db synched");
     // seeder();
